@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 844674443c125f64ca30a9a56e53bac0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4265144656990320977
+    second: Townspeople_Trainers_0
+  - first:
+      213: 7468460757971868661
+    second: Townspeople_Trainers_1
+  - first:
+      213: -2857333386198007581
+    second: Townspeople_Trainers_2
+  - first:
+      213: -5383552380237839381
+    second: Townspeople_Trainers_3
+  - first:
+      213: -1437648591439569127
+    second: Townspeople_Trainers_4
+  - first:
+      213: -8786311331527581152
+    second: Townspeople_Trainers_5
+  - first:
+      213: -1993082282783971727
+    second: Townspeople_Trainers_6
+  - first:
+      213: 5397549170605451682
+    second: Townspeople_Trainers_7
+  - first:
+      213: 5607577946557002109
+    second: Townspeople_Trainers_8
+  - first:
+      213: 7355890080278686002
+    second: Townspeople_Trainers_9
+  - first:
+      213: -1463905601929071596
+    second: Townspeople_Trainers_10
+  - first:
+      213: 7479585138268276123
+    second: Townspeople_Trainers_11
+  - first:
+      213: -5135238336755517957
+    second: Townspeople_Trainers_12
+  - first:
+      213: -7030937696956214100
+    second: Townspeople_Trainers_13
+  - first:
+      213: 8547823651111140935
+    second: Townspeople_Trainers_14
+  - first:
+      213: 8085210284040700167
+    second: Townspeople_Trainers_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Townspeople_Trainers_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 192
+        width: 26
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1593093c776d03b30800000000000000
+      internalID: 4265144656990320977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_Trainers_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 192
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb9bd16d7d45a760800000000000000
+      internalID: 7468460757971868661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_Trainers_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 191
+        width: 28
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0cdce8c66b858d0800000000000000
+      internalID: -2857333386198007581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_Trainers_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 191
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3073a22a7c945b0800000000000000
+      internalID: -5383552380237839381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_Trainers_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 128
+        width: 27
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f576b19327c0ce0800000000000000
+      internalID: -1437648591439569127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_Trainers_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 128
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0222f465560c01680800000000000000
+      internalID: -8786311331527581152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_Trainers_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 128
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176698e39362754e0800000000000000
+      internalID: -1993082282783971727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_Trainers_7
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 127
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a964ab8f52f7ea40800000000000000
+      internalID: 5397549170605451682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_Trainers_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 65
+        width: 25
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7138d2ae6e12dd40800000000000000
+      internalID: 5607577946557002109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_Trainers_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 64
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239a4d90e0f551660800000000000000
+      internalID: 7355890080278686002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_Trainers_10
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 64
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41430547c992fabe0800000000000000
+      internalID: -1463905601929071596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_Trainers_11
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 64
+        width: 23
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9585c10e03dcc760800000000000000
+      internalID: 7479585138268276123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_Trainers_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf538bcb0f7fbb8b0800000000000000
+      internalID: -5135238336755517957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_Trainers_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca495078a671d6e90800000000000000
+      internalID: -7030937696956214100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_Trainers_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e79278258ff9670800000000000000
+      internalID: 8547823651111140935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_Trainers_15
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701c4928aef643070800000000000000
+      internalID: 8085210284040700167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Townspeople_Trainers_0: 4265144656990320977
+      Townspeople_Trainers_1: 7468460757971868661
+      Townspeople_Trainers_10: -1463905601929071596
+      Townspeople_Trainers_11: 7479585138268276123
+      Townspeople_Trainers_12: -5135238336755517957
+      Townspeople_Trainers_13: -7030937696956214100
+      Townspeople_Trainers_14: 8547823651111140935
+      Townspeople_Trainers_15: 8085210284040700167
+      Townspeople_Trainers_2: -2857333386198007581
+      Townspeople_Trainers_3: -5383552380237839381
+      Townspeople_Trainers_4: -1437648591439569127
+      Townspeople_Trainers_5: -8786311331527581152
+      Townspeople_Trainers_6: -1993082282783971727
+      Townspeople_Trainers_7: 5397549170605451682
+      Townspeople_Trainers_8: 5607577946557002109
+      Townspeople_Trainers_9: 7355890080278686002
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,5525 @@
+fileFormatVersion: 2
+guid: 077dace48243af44e9a2c5fb754b5104
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6426819518842574509
+    second: Townspeople_0
+  - first:
+      213: 9196411516828785529
+    second: Townspeople_1
+  - first:
+      213: 2494008643854496784
+    second: Townspeople_2
+  - first:
+      213: 4757549793096621028
+    second: Townspeople_3
+  - first:
+      213: -3755018457465853139
+    second: Townspeople_4
+  - first:
+      213: 129011805128758949
+    second: Townspeople_5
+  - first:
+      213: 7572115055892806787
+    second: Townspeople_6
+  - first:
+      213: 8524545302091726966
+    second: Townspeople_7
+  - first:
+      213: -3865009149045336125
+    second: Townspeople_8
+  - first:
+      213: -765357280740264327
+    second: Townspeople_9
+  - first:
+      213: 2417368218266230185
+    second: Townspeople_10
+  - first:
+      213: 5961513515241497558
+    second: Townspeople_11
+  - first:
+      213: -2781883170130960304
+    second: Townspeople_12
+  - first:
+      213: 8840512952283724067
+    second: Townspeople_13
+  - first:
+      213: -3281403666177116809
+    second: Townspeople_14
+  - first:
+      213: 5258043692725086696
+    second: Townspeople_15
+  - first:
+      213: 8878472799778039912
+    second: Townspeople_16
+  - first:
+      213: -1995388109242034206
+    second: Townspeople_17
+  - first:
+      213: -312821431896839162
+    second: Townspeople_18
+  - first:
+      213: 7768974346881226278
+    second: Townspeople_19
+  - first:
+      213: 1397459748008620780
+    second: Townspeople_20
+  - first:
+      213: 2002434753417621241
+    second: Townspeople_21
+  - first:
+      213: -7502749318151967215
+    second: Townspeople_22
+  - first:
+      213: 7779629374314293199
+    second: Townspeople_23
+  - first:
+      213: 6446625413435786179
+    second: Townspeople_24
+  - first:
+      213: 6274424022390056891
+    second: Townspeople_25
+  - first:
+      213: -4563119138810269856
+    second: Townspeople_26
+  - first:
+      213: 4307027358827771759
+    second: Townspeople_27
+  - first:
+      213: -2727321778041547907
+    second: Townspeople_28
+  - first:
+      213: -696607198458832816
+    second: Townspeople_29
+  - first:
+      213: -3857188591530219435
+    second: Townspeople_30
+  - first:
+      213: -2308742666957505022
+    second: Townspeople_31
+  - first:
+      213: -4786356344636685905
+    second: Townspeople_32
+  - first:
+      213: 5598204998896733128
+    second: Townspeople_33
+  - first:
+      213: -3208178089528474591
+    second: Townspeople_34
+  - first:
+      213: -4471945427389709631
+    second: Townspeople_35
+  - first:
+      213: 1333075551590407299
+    second: Townspeople_36
+  - first:
+      213: 2995642081481685987
+    second: Townspeople_37
+  - first:
+      213: -7839633666301956001
+    second: Townspeople_38
+  - first:
+      213: -466514278298888262
+    second: Townspeople_39
+  - first:
+      213: 3078536392293453675
+    second: Townspeople_40
+  - first:
+      213: 7330046221488328300
+    second: Townspeople_41
+  - first:
+      213: -6970990341072430615
+    second: Townspeople_42
+  - first:
+      213: -1330536877490134914
+    second: Townspeople_43
+  - first:
+      213: -2918470432012709662
+    second: Townspeople_44
+  - first:
+      213: -3037417322600741367
+    second: Townspeople_45
+  - first:
+      213: 5601657526941702388
+    second: Townspeople_46
+  - first:
+      213: -6368636846699530858
+    second: Townspeople_47
+  - first:
+      213: -7408096032597779919
+    second: Townspeople_48
+  - first:
+      213: -1032271859938724665
+    second: Townspeople_49
+  - first:
+      213: -3912582407409362217
+    second: Townspeople_50
+  - first:
+      213: 3522164870000641515
+    second: Townspeople_51
+  - first:
+      213: -303400535702301035
+    second: Townspeople_52
+  - first:
+      213: 3672685435172812759
+    second: Townspeople_53
+  - first:
+      213: 4835097341462900962
+    second: Townspeople_54
+  - first:
+      213: -3625069199957659782
+    second: Townspeople_55
+  - first:
+      213: -5913666298054342262
+    second: Townspeople_56
+  - first:
+      213: -9070806005871405577
+    second: Townspeople_57
+  - first:
+      213: 8657528522904137783
+    second: Townspeople_58
+  - first:
+      213: 2062442973635794154
+    second: Townspeople_59
+  - first:
+      213: -2721578998997504927
+    second: Townspeople_60
+  - first:
+      213: -7265968548316361407
+    second: Townspeople_61
+  - first:
+      213: -3237243612039403741
+    second: Townspeople_62
+  - first:
+      213: -3485161789196789786
+    second: Townspeople_63
+  - first:
+      213: -8730367350414361392
+    second: Townspeople_64
+  - first:
+      213: 4964407326085649527
+    second: Townspeople_65
+  - first:
+      213: -3980033189590126704
+    second: Townspeople_66
+  - first:
+      213: 4175416161202770233
+    second: Townspeople_67
+  - first:
+      213: 1818859281114919491
+    second: Townspeople_68
+  - first:
+      213: 5656772774462601866
+    second: Townspeople_69
+  - first:
+      213: 3543876879194541260
+    second: Townspeople_70
+  - first:
+      213: 6120599415009852570
+    second: Townspeople_71
+  - first:
+      213: -588014688299204925
+    second: Townspeople_72
+  - first:
+      213: -184457739394387369
+    second: Townspeople_73
+  - first:
+      213: -9104530090442610293
+    second: Townspeople_74
+  - first:
+      213: -4055110153615606100
+    second: Townspeople_75
+  - first:
+      213: -8399509864413224162
+    second: Townspeople_76
+  - first:
+      213: 3920055492764828542
+    second: Townspeople_77
+  - first:
+      213: 4834604150475364645
+    second: Townspeople_78
+  - first:
+      213: -8735447652183007977
+    second: Townspeople_79
+  - first:
+      213: 3947120460405797172
+    second: Townspeople_80
+  - first:
+      213: -2194435949329631499
+    second: Townspeople_81
+  - first:
+      213: 7409956609448667777
+    second: Townspeople_82
+  - first:
+      213: 2056520615676309052
+    second: Townspeople_83
+  - first:
+      213: 3146399786412069834
+    second: Townspeople_84
+  - first:
+      213: 2123655788958704971
+    second: Townspeople_85
+  - first:
+      213: 2638862790670039569
+    second: Townspeople_86
+  - first:
+      213: -2049666902915400330
+    second: Townspeople_87
+  - first:
+      213: -5020967357321523563
+    second: Townspeople_88
+  - first:
+      213: 262599285965848646
+    second: Townspeople_89
+  - first:
+      213: 1402817692112645786
+    second: Townspeople_90
+  - first:
+      213: -5406645225931823716
+    second: Townspeople_91
+  - first:
+      213: 3534154024092521380
+    second: Townspeople_92
+  - first:
+      213: 1947899808105488499
+    second: Townspeople_93
+  - first:
+      213: -2173969056432059812
+    second: Townspeople_94
+  - first:
+      213: -5267348417071429557
+    second: Townspeople_95
+  - first:
+      213: -1517390675338018194
+    second: Townspeople_96
+  - first:
+      213: 2580495418226129857
+    second: Townspeople_97
+  - first:
+      213: -5019293152018169646
+    second: Townspeople_98
+  - first:
+      213: -6158169309622797819
+    second: Townspeople_99
+  - first:
+      213: -5268347851845231022
+    second: Townspeople_100
+  - first:
+      213: 2433058491191949966
+    second: Townspeople_101
+  - first:
+      213: -5119652442377369947
+    second: Townspeople_102
+  - first:
+      213: 8290831313603194544
+    second: Townspeople_103
+  - first:
+      213: -3098768214431271193
+    second: Townspeople_104
+  - first:
+      213: 767332809693103809
+    second: Townspeople_105
+  - first:
+      213: -2611515007486193783
+    second: Townspeople_106
+  - first:
+      213: 6048186276262455747
+    second: Townspeople_107
+  - first:
+      213: -4035509695384437930
+    second: Townspeople_108
+  - first:
+      213: 4751968291904756633
+    second: Townspeople_109
+  - first:
+      213: 8020182026371576725
+    second: Townspeople_110
+  - first:
+      213: -4868821135799394594
+    second: Townspeople_111
+  - first:
+      213: -8432186019980173552
+    second: Townspeople_112
+  - first:
+      213: -7059349895099885480
+    second: Townspeople_113
+  - first:
+      213: 6666751815991202829
+    second: Townspeople_114
+  - first:
+      213: 36840277780543740
+    second: Townspeople_115
+  - first:
+      213: 6775402404872963211
+    second: Townspeople_116
+  - first:
+      213: -8975130220734505894
+    second: Townspeople_117
+  - first:
+      213: -1101728500598425812
+    second: Townspeople_118
+  - first:
+      213: 8943630266094846206
+    second: Townspeople_119
+  - first:
+      213: 6808613510703552417
+    second: Townspeople_120
+  - first:
+      213: -3913096290316427296
+    second: Townspeople_121
+  - first:
+      213: -8391280350039527432
+    second: Townspeople_122
+  - first:
+      213: -8722025492923874116
+    second: Townspeople_123
+  - first:
+      213: 6960671306105430824
+    second: Townspeople_124
+  - first:
+      213: -510613776289903639
+    second: Townspeople_125
+  - first:
+      213: 8582092210394971311
+    second: Townspeople_126
+  - first:
+      213: 9085361110127237840
+    second: Townspeople_127
+  - first:
+      213: -496320737874145909
+    second: Townspeople_128
+  - first:
+      213: -6115350805018060322
+    second: Townspeople_129
+  - first:
+      213: -8994935706923776233
+    second: Townspeople_130
+  - first:
+      213: 8702398655189776261
+    second: Townspeople_131
+  - first:
+      213: -7172537022893808787
+    second: Townspeople_132
+  - first:
+      213: -4066766497867215097
+    second: Townspeople_133
+  - first:
+      213: 6011735644665728769
+    second: Townspeople_134
+  - first:
+      213: -3283642243327983051
+    second: Townspeople_135
+  - first:
+      213: 9085156136990092926
+    second: Townspeople_136
+  - first:
+      213: -8496746094149100182
+    second: Townspeople_137
+  - first:
+      213: -2244157977049113079
+    second: Townspeople_138
+  - first:
+      213: -6045809696489582849
+    second: Townspeople_139
+  - first:
+      213: 2969798659723618382
+    second: Townspeople_140
+  - first:
+      213: 5082850152464308130
+    second: Townspeople_141
+  - first:
+      213: 9054206558468864110
+    second: Townspeople_142
+  - first:
+      213: -1372891223814649417
+    second: Townspeople_143
+  - first:
+      213: -4937918795832500057
+    second: Townspeople_144
+  - first:
+      213: 9152088489735117490
+    second: Townspeople_145
+  - first:
+      213: -7532142604597667317
+    second: Townspeople_146
+  - first:
+      213: 1353010903325919117
+    second: Townspeople_147
+  - first:
+      213: -3925928051629389420
+    second: Townspeople_148
+  - first:
+      213: -5305405789343170971
+    second: Townspeople_149
+  - first:
+      213: 8207589755398606856
+    second: Townspeople_150
+  - first:
+      213: -3695074509829172689
+    second: Townspeople_151
+  - first:
+      213: -5916332557435992020
+    second: Townspeople_152
+  - first:
+      213: 3342630532341455400
+    second: Townspeople_153
+  - first:
+      213: 3034299243449284193
+    second: Townspeople_154
+  - first:
+      213: -8645386398874583573
+    second: Townspeople_155
+  - first:
+      213: -8434811224102166456
+    second: Townspeople_156
+  - first:
+      213: -7471441514272120328
+    second: Townspeople_157
+  - first:
+      213: -1765993488845567950
+    second: Townspeople_158
+  - first:
+      213: -2204362505315153796
+    second: Townspeople_159
+  - first:
+      213: 1434386674619310326
+    second: Townspeople_160
+  - first:
+      213: -1690662934267704345
+    second: Townspeople_161
+  - first:
+      213: -1427640645239642399
+    second: Townspeople_162
+  - first:
+      213: -4239055342477007283
+    second: Townspeople_163
+  - first:
+      213: 3381786906649078725
+    second: Townspeople_164
+  - first:
+      213: -7239586973761979604
+    second: Townspeople_165
+  - first:
+      213: -62956489286885216
+    second: Townspeople_166
+  - first:
+      213: 8707844437907367819
+    second: Townspeople_167
+  - first:
+      213: -2902593436039513096
+    second: Townspeople_168
+  - first:
+      213: 5051117028729497533
+    second: Townspeople_169
+  - first:
+      213: -6055611571834843371
+    second: Townspeople_170
+  - first:
+      213: -7460503810697996390
+    second: Townspeople_171
+  - first:
+      213: -3725279239262522674
+    second: Townspeople_172
+  - first:
+      213: -5284102576281770353
+    second: Townspeople_173
+  - first:
+      213: 775212056681890346
+    second: Townspeople_174
+  - first:
+      213: -6368013484138077909
+    second: Townspeople_175
+  - first:
+      213: 458739056618556836
+    second: Townspeople_176
+  - first:
+      213: 4857823813697320782
+    second: Townspeople_177
+  - first:
+      213: -3550312014683408185
+    second: Townspeople_178
+  - first:
+      213: -9067155255417521005
+    second: Townspeople_179
+  - first:
+      213: 852231880642218419
+    second: Townspeople_180
+  - first:
+      213: -193998442087441609
+    second: Townspeople_181
+  - first:
+      213: -9027413291781519445
+    second: Townspeople_182
+  - first:
+      213: -7210127589914845335
+    second: Townspeople_183
+  - first:
+      213: 4993705723994822559
+    second: Townspeople_184
+  - first:
+      213: 5032414109834227575
+    second: Townspeople_185
+  - first:
+      213: 8919496100498012309
+    second: Townspeople_186
+  - first:
+      213: -767371309242894128
+    second: Townspeople_187
+  - first:
+      213: 7676188462447710986
+    second: Townspeople_188
+  - first:
+      213: -5836207745905649119
+    second: Townspeople_189
+  - first:
+      213: -2420139584254542772
+    second: Townspeople_190
+  - first:
+      213: 7386943188750156073
+    second: Townspeople_191
+  - first:
+      213: -4102576753383992952
+    second: Townspeople_192
+  - first:
+      213: -139727460483313850
+    second: Townspeople_193
+  - first:
+      213: 3624023477330956020
+    second: Townspeople_194
+  - first:
+      213: -5233428751447348320
+    second: Townspeople_195
+  - first:
+      213: 594666219116184349
+    second: Townspeople_196
+  - first:
+      213: 441340693680242228
+    second: Townspeople_197
+  - first:
+      213: 4430785764555271375
+    second: Townspeople_198
+  - first:
+      213: -88393854826896980
+    second: Townspeople_199
+  - first:
+      213: -4089120587095005633
+    second: Townspeople_200
+  - first:
+      213: 4888589590938705284
+    second: Townspeople_201
+  - first:
+      213: 4872354070250474627
+    second: Townspeople_202
+  - first:
+      213: -3096176190901023693
+    second: Townspeople_203
+  - first:
+      213: 6886970643054172097
+    second: Townspeople_204
+  - first:
+      213: -3038688958071989228
+    second: Townspeople_205
+  - first:
+      213: 7432960859787649289
+    second: Townspeople_206
+  - first:
+      213: 7667121083529864533
+    second: Townspeople_207
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Townspeople_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 390
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da698283d46a03950800000000000000
+      internalID: 6426819518842574509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 390
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b14e4cc8730af70800000000000000
+      internalID: 9196411516828785529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 390
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01473b3d5af7c9220800000000000000
+      internalID: 2494008643854496784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 352
+        width: 26
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebd1ca8456360240800000000000000
+      internalID: 4757549793096621028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 390
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b66bd9b9e73ebc0800000000000000
+      internalID: -3755018457465853139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_5
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 390
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a61880ad875ac100800000000000000
+      internalID: 129011805128758949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_6
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 390
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cb0e8468e851960800000000000000
+      internalID: 7572115055892806787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_7
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 352
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67007ea89c44d4670800000000000000
+      internalID: 8524545302091726966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_8
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 390
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7948918aabc5ac0800000000000000
+      internalID: -3865009149045336125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 390
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976b733bb97e065f0800000000000000
+      internalID: -765357280740264327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_10
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 390
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9add31536973c8120800000000000000
+      internalID: 2417368218266230185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_11
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 351
+        width: 28
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3e8a7e4fc8bb250800000000000000
+      internalID: 5961513515241497558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_12
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 390
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050e4bdeef3c469d0800000000000000
+      internalID: -2781883170130960304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_13
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 390
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3297c19e0bfcfaa70800000000000000
+      internalID: 8840512952283724067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_14
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 390
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77539d050cc1672d0800000000000000
+      internalID: -3281403666177116809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_15
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 351
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9ac5651e258f840800000000000000
+      internalID: 5258043692725086696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 364
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868ecb2a8fba63b70800000000000000
+      internalID: 8878472799778039912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_17
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 364
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7179f2615fe44e0800000000000000
+      internalID: -1995388109242034206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_18
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 364
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ce8a9a092a8abf0800000000000000
+      internalID: -312821431896839162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 364
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6265af6b101f0db60800000000000000
+      internalID: 7768974346881226278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_20
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 364
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2f5fb9c36c46310800000000000000
+      internalID: 1397459748008620780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_21
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 364
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9feaa538cc31acb10800000000000000
+      internalID: 2002434753417621241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_22
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 364
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e6fb41f31e0e790800000000000000
+      internalID: -7502749318151967215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_23
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 364
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7a23c92bbc6fb60800000000000000
+      internalID: 7779629374314293199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_24
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 364
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c388d768a3077950800000000000000
+      internalID: 6446625413435786179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_25
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 364
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7acb0b76b331750800000000000000
+      internalID: 6274424022390056891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_26
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 364
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f6d67d15b8ca0c0800000000000000
+      internalID: -4563119138810269856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_27
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 364
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6771d03092a5cb30800000000000000
+      internalID: 4307027358827771759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 338
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7395a7fa4b962ad0800000000000000
+      internalID: -2727321778041547907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_29
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 338
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05891eb91772556f0800000000000000
+      internalID: -696607198458832816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_30
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 338
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558e62a8963887ac0800000000000000
+      internalID: -3857188591530219435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_31
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 338
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20eb532d6c2b5ffd0800000000000000
+      internalID: -2308742666957505022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_32
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 338
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa14e758342739db0800000000000000
+      internalID: -4786356344636685905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_33
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 338
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb4e0339c1d0bd40800000000000000
+      internalID: 5598204998896733128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_34
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 338
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124c67576034a73d0800000000000000
+      internalID: -3208178089528474591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_35
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 338
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c20181c35570f1c0800000000000000
+      internalID: -4471945427389709631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_36
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 338
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cdd47b629008210800000000000000
+      internalID: 1333075551590407299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_37
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 338
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb7decf998a29920800000000000000
+      internalID: 2995642081481685987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_38
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 338
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50f0e677b6043390800000000000000
+      internalID: -7839633666301956001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_39
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 338
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7d85f4cbb9689f0800000000000000
+      internalID: -466514278298888262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 312
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f83cab98829ba20800000000000000
+      internalID: 3078536392293453675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_41
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 312
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e8103c33e89b560800000000000000
+      internalID: 7330046221488328300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 312
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9d2bbf731124f90800000000000000
+      internalID: -6970990341072430615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_43
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 312
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70a4a862cbf88de0800000000000000
+      internalID: -1330536877490134914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_44
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 312
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0d664da928f77d0800000000000000
+      internalID: -2918470432012709662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_45
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 312
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906c3cbb90de8d5d0800000000000000
+      internalID: -3037417322600741367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_46
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 312
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8d0c687d51dbd40800000000000000
+      internalID: 5601657526941702388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_47
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 312
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695b209c78e0e97a0800000000000000
+      internalID: -6368636846699530858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_48
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 312
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a570b78e7213990800000000000000
+      internalID: -7408096032597779919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_49
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 312
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c478bc6632aca1f0800000000000000
+      internalID: -1032271859938724665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_50
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 312
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da1cebb707b3b9c0800000000000000
+      internalID: -3912582407409362217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_51
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 312
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be58fbcb94e31e030800000000000000
+      internalID: 3522164870000641515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 286
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5961dccf1da1acbf0800000000000000
+      internalID: -303400535702301035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_53
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 286
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7f93fc1fff7f230800000000000000
+      internalID: 3672685435172812759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_54
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 286
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0f4542a67b91340800000000000000
+      internalID: 4835097341462900962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_55
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 248
+        width: 27
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f6052e4ca21bdc0800000000000000
+      internalID: -3625069199957659782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_56
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 286
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89854875df6eeda0800000000000000
+      internalID: -5913666298054342262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 286
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f51e813ff50e1280800000000000000
+      internalID: -9070806005871405577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_58
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 286
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73073807258b52870800000000000000
+      internalID: 8657528522904137783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_59
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 248
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4df0d05f44f9c10800000000000000
+      internalID: 2062442973635794154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_60
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 286
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c2798e1520b3ad0800000000000000
+      internalID: -2721578998997504927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_61
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 286
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d41702a181a2b90800000000000000
+      internalID: -7265968548316361407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_62
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 286
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3272df426100313d0800000000000000
+      internalID: -3237243612039403741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_63
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 248
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7192261d732afc0800000000000000
+      internalID: -3485161789196789786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_64
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 286
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc32e7762187d680800000000000000
+      internalID: -8730367350414361392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_65
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 286
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7749ea7192e15e440800000000000000
+      internalID: 4964407326085649527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_66
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 286
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f2734b6e414c8c0800000000000000
+      internalID: -3980033189590126704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_67
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 247
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9319ae550ee02f930800000000000000
+      internalID: 4175416161202770233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 260
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342f64321e2ed3910800000000000000
+      internalID: 1818859281114919491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_69
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 260
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ab1f41ed4e08e40800000000000000
+      internalID: 5656772774462601866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_70
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 260
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc4c10de316e2130800000000000000
+      internalID: 3543876879194541260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_71
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 260
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c30285dbcb0f450800000000000000
+      internalID: 6120599415009852570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_72
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 260
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ceb635a1c3f6d7f0800000000000000
+      internalID: -588014688299204925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_73
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 260
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752735fc9aca07df0800000000000000
+      internalID: -184457739394387369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_74
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 260
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b892050ee1636a180800000000000000
+      internalID: -9104530090442610293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_75
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 260
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae79a8dcca59b7c0800000000000000
+      internalID: -4055110153615606100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_76
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 260
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13a244e742fe6b80800000000000000
+      internalID: -8399509864413224162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_77
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 260
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73011a83b5d66630800000000000000
+      internalID: 3920055492764828542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_78
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 260
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52996ba2cd6f71340800000000000000
+      internalID: 4834604150475364645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_79
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 260
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d9c9984a475c680800000000000000
+      internalID: -8735447652183007977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431f920652df6c630800000000000000
+      internalID: 3947120460405797172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_81
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 234
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f63cd5712ccb81e0800000000000000
+      internalID: -2194435949329631499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_82
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 234
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18aee33d64475d660800000000000000
+      internalID: 7409956609448667777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_83
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 234
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e67a2aa9a3a8c10800000000000000
+      internalID: 2056520615676309052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_84
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 234
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3d4767fe14aab20800000000000000
+      internalID: 3146399786412069834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_85
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 234
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45e51e30bdb87d10800000000000000
+      internalID: 2123655788958704971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_86
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 234
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a32e01abf1f9420800000000000000
+      internalID: 2638862790670039569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_87
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 234
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d3ad7bfce1e83e0800000000000000
+      internalID: -2049666902915400330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_88
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 234
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ec40e6ac0f15ab0800000000000000
+      internalID: -5020967357321523563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_89
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 234
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6400446c8a0f4a300800000000000000
+      internalID: 262599285965848646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_90
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 234
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ee10f224fc77310800000000000000
+      internalID: 1402817692112645786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_91
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 234
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95a5c900dcb7f4b0800000000000000
+      internalID: -5406645225931823716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_92
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 208
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a35d833c56db0130800000000000000
+      internalID: 3534154024092521380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_93
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 208
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370ed281e84580b10800000000000000
+      internalID: 1947899808105488499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_94
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 208
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a0dae49a284d1e0800000000000000
+      internalID: -2173969056432059812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_95
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 208
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48cd34b58e96e6b0800000000000000
+      internalID: -5267348417071429557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_96
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62ccf2683521fae0800000000000000
+      internalID: -1517390675338018194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_97
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 208
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb34eb29e2cfc320800000000000000
+      internalID: 2580495418226129857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_98
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 208
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0086ab873e75ab0800000000000000
+      internalID: -5019293152018169646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_99
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 208
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a7839e3a9c98aa0800000000000000
+      internalID: -6158169309622797819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_100
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 208
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e9299aa8113e6b0800000000000000
+      internalID: -5268347851845231022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_101
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 208
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a7e3d8ec5f3c120800000000000000
+      internalID: 2433058491191949966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_102
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 208
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6c2ae8a3753f8b0800000000000000
+      internalID: -5119652442377369947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_103
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 208
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bee00c2723fe0370800000000000000
+      internalID: 8290831313603194544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_104
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 182
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e67d891ab6fef4d0800000000000000
+      internalID: -3098768214431271193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_105
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 182
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6824aff1d16aa00800000000000000
+      internalID: 767332809693103809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_106
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 182
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f0f25efe802cbd0800000000000000
+      internalID: -2611515007486193783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_107
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 145
+        width: 25
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c92404af597fe350800000000000000
+      internalID: 6048186276262455747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_108
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 182
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b37f6205dfef7c0800000000000000
+      internalID: -4035509695384437930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_109
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 182
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b17e60cf162f140800000000000000
+      internalID: 4751968291904756633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_110
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 182
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593b9db6f096d4f60800000000000000
+      internalID: 8020182026371576725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_111
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede53cd19f87e6cb0800000000000000
+      internalID: -4868821135799394594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_112
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 182
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f111f8d7bdafa80800000000000000
+      internalID: -8432186019980173552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_113
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 182
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85851652ca6280e90800000000000000
+      internalID: -7059349895099885480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_114
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 182
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0498d5647f058c50800000000000000
+      internalID: 6666751815991202829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_115
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 144
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf839869902e28000800000000000000
+      internalID: 36840277780543740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_116
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 182
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84c7c0f690170e50800000000000000
+      internalID: 6775402404872963211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_117
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 182
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c1f34dd9ee17380800000000000000
+      internalID: -8975130220734505894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_118
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 182
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2738e214cfd5b0f0800000000000000
+      internalID: -1101728500598425812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_119
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 144
+        width: 23
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0040577582e1c70800000000000000
+      internalID: 8943630266094846206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_120
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 156
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a719661aed0d7e50800000000000000
+      internalID: 6808613510703552417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_121
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 156
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef5acb08a3e1b9c0800000000000000
+      internalID: -3913096290316427296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_122
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 156
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffad250bfe2c8b80800000000000000
+      internalID: -8391280350039527432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_123
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 156
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb40f54860425f680800000000000000
+      internalID: -8722025492923874116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_124
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 156
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8232ba67ca5499060800000000000000
+      internalID: 6960671306105430824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_125
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 156
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebc1dec97fe9e8f0800000000000000
+      internalID: -510613776289903639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_126
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 156
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac3d3e3567b91770800000000000000
+      internalID: 8582092210394971311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_127
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 156
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da58491bcfa51e70800000000000000
+      internalID: 9085361110127237840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_128
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 156
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d0a542be6bc19f0800000000000000
+      internalID: -496320737874145909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_129
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 156
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9dff5e7d8e12ba0800000000000000
+      internalID: -6115350805018060322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_130
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 156
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717c45bb1a19b2380800000000000000
+      internalID: -8994935706923776233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_131
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 156
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5877c68387125c870800000000000000
+      internalID: 8702398655189776261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_132
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 130
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63a3145497067c90800000000000000
+      internalID: -7172537022893808787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_133
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 130
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f4a26ba61ff87c0800000000000000
+      internalID: -4066766497867215097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_134
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 130
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fcadf97b9fd6350800000000000000
+      internalID: 6011735644665728769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_135
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 130
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53208f4f6c82e62d0800000000000000
+      internalID: -3283642243327983051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_136
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 130
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e21421f55f41e70800000000000000
+      internalID: 9085156136990092926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_137
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 130
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d1e8fe17e751a80800000000000000
+      internalID: -8496746094149100182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_138
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 130
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ed02eb5362bd0e0800000000000000
+      internalID: -2244157977049113079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_139
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 130
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe4025fc18f81ca0800000000000000
+      internalID: -6045809696489582849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_140
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 130
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48e1477528d63920800000000000000
+      internalID: 2969798659723618382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_141
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 130
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7dc289849e98640800000000000000
+      internalID: 5082850152464308130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_142
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 130
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e687c88c4e007ad70800000000000000
+      internalID: 9054206558468864110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_143
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 130
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9c641b4b282fce0800000000000000
+      internalID: -1372891223814649417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_144
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 104
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0eda4740df87bb0800000000000000
+      internalID: -4937918795832500057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_145
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 104
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba5a97ddffb20f70800000000000000
+      internalID: 9152088489735117490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_146
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 104
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ade574534787790800000000000000
+      internalID: -7532142604597667317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_147
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 104
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87c8fd7f3cd6c210800000000000000
+      internalID: 1353010903325919117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_148
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 104
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49983eccc3d4489c0800000000000000
+      internalID: -3925928051629389420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_149
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 104
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e36e83b896f56b0800000000000000
+      internalID: -5305405789343170971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_150
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 104
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8005ba8956737e170800000000000000
+      internalID: 8207589755398606856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_151
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 104
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2218078f4578bcc0800000000000000
+      internalID: -3695074509829172689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_152
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 104
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2803f492e6f4eda0800000000000000
+      internalID: -5916332557435992020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_153
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 104
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a569752c8636e20800000000000000
+      internalID: 3342630532341455400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_154
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 104
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166f704e51ffb1a20800000000000000
+      internalID: 3034299243449284193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_155
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 104
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed361d10ea650880800000000000000
+      internalID: -8645386398874583573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_156
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 78
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840a9e791e781fa80800000000000000
+      internalID: -8434811224102166456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_157
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 78
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f124b5378b105890800000000000000
+      internalID: -7471441514272120328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_158
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 77
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23805bd474eed77e0800000000000000
+      internalID: -1765993488845567950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_159
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 40
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78008a0bf78861e0800000000000000
+      internalID: -2204362505315153796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_160
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 78
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0ec33b417f7e310800000000000000
+      internalID: 1434386674619310326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_161
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 78
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebcd00d40f8988e0800000000000000
+      internalID: -1690662934267704345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_162
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 78
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6e499a560003ce0800000000000000
+      internalID: -1427640645239642399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_163
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 40
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46af6020a9db25c0800000000000000
+      internalID: -4239055342477007283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_164
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 78
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cba2ec26458eee20800000000000000
+      internalID: 3381786906649078725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_165
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 78
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b3f5c1102d78b90800000000000000
+      internalID: -7239586973761979604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_166
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 78
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0efb31865502ff0800000000000000
+      internalID: -62956489286885216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_167
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 40
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8764d0516a78d870800000000000000
+      internalID: 8707844437907367819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_168
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 77
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbfb7506aae7b7d0800000000000000
+      internalID: -2902593436039513096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_169
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 78
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db72958fc2c291640800000000000000
+      internalID: 5051117028729497533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_170
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 77
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f0a030c5526fba0800000000000000
+      internalID: -6055611571834843371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_171
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 40
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97d5e5cf47f67890800000000000000
+      internalID: -7460503810697996390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_172
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 52
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2be9ee4462d4cc0800000000000000
+      internalID: -3725279239262522674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_173
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 52
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86aff704b81ba6b0800000000000000
+      internalID: -5284102576281770353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_174
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 52
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22cf10224b12ca00800000000000000
+      internalID: 775212056681890346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_175
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 52
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b216d01b97540a7a0800000000000000
+      internalID: -6368013484138077909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_176
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 52
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adc852ddb4cd5600800000000000000
+      internalID: 458739056618556836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_177
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 52
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47bcdc45057a6340800000000000000
+      internalID: 4857823813697320782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_178
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 52
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c87ef27802cabec0800000000000000
+      internalID: -3550312014683408185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_179
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 52
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39cb585c55efa2280800000000000000
+      internalID: -9067155255417521005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_180
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 52
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b941ff416cb3db00800000000000000
+      internalID: 852231880642218419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_181
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 52
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b166cd177ce4df0800000000000000
+      internalID: -193998442087441609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_182
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 52
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba709beb07f28b280800000000000000
+      internalID: -9027413291781519445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_183
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 52
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96fd1e9682b70fb90800000000000000
+      internalID: -7210127589914845335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_184
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 25
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97db8fe5e43d4540800000000000000
+      internalID: 4993705723994822559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_185
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 26
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f255358f9b6d540800000000000000
+      internalID: 5032414109834227575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_186
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 25
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5987aa5227a68cb70800000000000000
+      internalID: 8919496100498012309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_187
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 26
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d830c52cdfb955f0800000000000000
+      internalID: -767371309242894128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_188
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 26
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03d5258cbc478a60800000000000000
+      internalID: 7676188462447710986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_189
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 26
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a19e50aff910fa0800000000000000
+      internalID: -5836207745905649119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_190
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 26
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c75addedfe96ed0800000000000000
+      internalID: -2420139584254542772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_191
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 26
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921c17541b1b38660800000000000000
+      internalID: 7386943188750156073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_192
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 26
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88195cedd28b017c0800000000000000
+      internalID: -4102576753383992952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_193
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 26
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f46807d969f0ef0800000000000000
+      internalID: -139727460483313850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_194
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 26
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4feccf7d62e1b4230800000000000000
+      internalID: 3624023477330956020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_195
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 26
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab2aa847402f57b0800000000000000
+      internalID: -5233428751447348320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_196
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13485e86cda04800800000000000000
+      internalID: 594666219116184349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_197
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e3cb7c505ff1600800000000000000
+      internalID: 441340693680242228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_198
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fccac247d205d7d30800000000000000
+      internalID: 4430785764555271375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_199
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca127b2e146f5cef0800000000000000
+      internalID: -88393854826896980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_200
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 0
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36277abd768047c0800000000000000
+      internalID: -4089120587095005633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_201
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dd2940552c7d340800000000000000
+      internalID: 4888589590938705284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_202
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c453946341e9340800000000000000
+      internalID: 4872354070250474627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_203
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c825b982c2805d0800000000000000
+      internalID: -3096176190901023693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_204
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c799c5af4f639f50800000000000000
+      internalID: 6886970643054172097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_205
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c97370e7864d5d0800000000000000
+      internalID: -3038688958071989228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_206
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901660d358e272760800000000000000
+      internalID: 7432960859787649289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Townspeople_207
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 0
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555a4b9d006176a60800000000000000
+      internalID: 7667121083529864533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Townspeople_0: 6426819518842574509
+      Townspeople_1: 9196411516828785529
+      Townspeople_10: 2417368218266230185
+      Townspeople_100: -5268347851845231022
+      Townspeople_101: 2433058491191949966
+      Townspeople_102: -5119652442377369947
+      Townspeople_103: 8290831313603194544
+      Townspeople_104: -3098768214431271193
+      Townspeople_105: 767332809693103809
+      Townspeople_106: -2611515007486193783
+      Townspeople_107: 6048186276262455747
+      Townspeople_108: -4035509695384437930
+      Townspeople_109: 4751968291904756633
+      Townspeople_11: 5961513515241497558
+      Townspeople_110: 8020182026371576725
+      Townspeople_111: -4868821135799394594
+      Townspeople_112: -8432186019980173552
+      Townspeople_113: -7059349895099885480
+      Townspeople_114: 6666751815991202829
+      Townspeople_115: 36840277780543740
+      Townspeople_116: 6775402404872963211
+      Townspeople_117: -8975130220734505894
+      Townspeople_118: -1101728500598425812
+      Townspeople_119: 8943630266094846206
+      Townspeople_12: -2781883170130960304
+      Townspeople_120: 6808613510703552417
+      Townspeople_121: -3913096290316427296
+      Townspeople_122: -8391280350039527432
+      Townspeople_123: -8722025492923874116
+      Townspeople_124: 6960671306105430824
+      Townspeople_125: -510613776289903639
+      Townspeople_126: 8582092210394971311
+      Townspeople_127: 9085361110127237840
+      Townspeople_128: -496320737874145909
+      Townspeople_129: -6115350805018060322
+      Townspeople_13: 8840512952283724067
+      Townspeople_130: -8994935706923776233
+      Townspeople_131: 8702398655189776261
+      Townspeople_132: -7172537022893808787
+      Townspeople_133: -4066766497867215097
+      Townspeople_134: 6011735644665728769
+      Townspeople_135: -3283642243327983051
+      Townspeople_136: 9085156136990092926
+      Townspeople_137: -8496746094149100182
+      Townspeople_138: -2244157977049113079
+      Townspeople_139: -6045809696489582849
+      Townspeople_14: -3281403666177116809
+      Townspeople_140: 2969798659723618382
+      Townspeople_141: 5082850152464308130
+      Townspeople_142: 9054206558468864110
+      Townspeople_143: -1372891223814649417
+      Townspeople_144: -4937918795832500057
+      Townspeople_145: 9152088489735117490
+      Townspeople_146: -7532142604597667317
+      Townspeople_147: 1353010903325919117
+      Townspeople_148: -3925928051629389420
+      Townspeople_149: -5305405789343170971
+      Townspeople_15: 5258043692725086696
+      Townspeople_150: 8207589755398606856
+      Townspeople_151: -3695074509829172689
+      Townspeople_152: -5916332557435992020
+      Townspeople_153: 3342630532341455400
+      Townspeople_154: 3034299243449284193
+      Townspeople_155: -8645386398874583573
+      Townspeople_156: -8434811224102166456
+      Townspeople_157: -7471441514272120328
+      Townspeople_158: -1765993488845567950
+      Townspeople_159: -2204362505315153796
+      Townspeople_16: 8878472799778039912
+      Townspeople_160: 1434386674619310326
+      Townspeople_161: -1690662934267704345
+      Townspeople_162: -1427640645239642399
+      Townspeople_163: -4239055342477007283
+      Townspeople_164: 3381786906649078725
+      Townspeople_165: -7239586973761979604
+      Townspeople_166: -62956489286885216
+      Townspeople_167: 8707844437907367819
+      Townspeople_168: -2902593436039513096
+      Townspeople_169: 5051117028729497533
+      Townspeople_17: -1995388109242034206
+      Townspeople_170: -6055611571834843371
+      Townspeople_171: -7460503810697996390
+      Townspeople_172: -3725279239262522674
+      Townspeople_173: -5284102576281770353
+      Townspeople_174: 775212056681890346
+      Townspeople_175: -6368013484138077909
+      Townspeople_176: 458739056618556836
+      Townspeople_177: 4857823813697320782
+      Townspeople_178: -3550312014683408185
+      Townspeople_179: -9067155255417521005
+      Townspeople_18: -312821431896839162
+      Townspeople_180: 852231880642218419
+      Townspeople_181: -193998442087441609
+      Townspeople_182: -9027413291781519445
+      Townspeople_183: -7210127589914845335
+      Townspeople_184: 4993705723994822559
+      Townspeople_185: 5032414109834227575
+      Townspeople_186: 8919496100498012309
+      Townspeople_187: -767371309242894128
+      Townspeople_188: 7676188462447710986
+      Townspeople_189: -5836207745905649119
+      Townspeople_19: 7768974346881226278
+      Townspeople_190: -2420139584254542772
+      Townspeople_191: 7386943188750156073
+      Townspeople_192: -4102576753383992952
+      Townspeople_193: -139727460483313850
+      Townspeople_194: 3624023477330956020
+      Townspeople_195: -5233428751447348320
+      Townspeople_196: 594666219116184349
+      Townspeople_197: 441340693680242228
+      Townspeople_198: 4430785764555271375
+      Townspeople_199: -88393854826896980
+      Townspeople_2: 2494008643854496784
+      Townspeople_20: 1397459748008620780
+      Townspeople_200: -4089120587095005633
+      Townspeople_201: 4888589590938705284
+      Townspeople_202: 4872354070250474627
+      Townspeople_203: -3096176190901023693
+      Townspeople_204: 6886970643054172097
+      Townspeople_205: -3038688958071989228
+      Townspeople_206: 7432960859787649289
+      Townspeople_207: 7667121083529864533
+      Townspeople_21: 2002434753417621241
+      Townspeople_22: -7502749318151967215
+      Townspeople_23: 7779629374314293199
+      Townspeople_24: 6446625413435786179
+      Townspeople_25: 6274424022390056891
+      Townspeople_26: -4563119138810269856
+      Townspeople_27: 4307027358827771759
+      Townspeople_28: -2727321778041547907
+      Townspeople_29: -696607198458832816
+      Townspeople_3: 4757549793096621028
+      Townspeople_30: -3857188591530219435
+      Townspeople_31: -2308742666957505022
+      Townspeople_32: -4786356344636685905
+      Townspeople_33: 5598204998896733128
+      Townspeople_34: -3208178089528474591
+      Townspeople_35: -4471945427389709631
+      Townspeople_36: 1333075551590407299
+      Townspeople_37: 2995642081481685987
+      Townspeople_38: -7839633666301956001
+      Townspeople_39: -466514278298888262
+      Townspeople_4: -3755018457465853139
+      Townspeople_40: 3078536392293453675
+      Townspeople_41: 7330046221488328300
+      Townspeople_42: -6970990341072430615
+      Townspeople_43: -1330536877490134914
+      Townspeople_44: -2918470432012709662
+      Townspeople_45: -3037417322600741367
+      Townspeople_46: 5601657526941702388
+      Townspeople_47: -6368636846699530858
+      Townspeople_48: -7408096032597779919
+      Townspeople_49: -1032271859938724665
+      Townspeople_5: 129011805128758949
+      Townspeople_50: -3912582407409362217
+      Townspeople_51: 3522164870000641515
+      Townspeople_52: -303400535702301035
+      Townspeople_53: 3672685435172812759
+      Townspeople_54: 4835097341462900962
+      Townspeople_55: -3625069199957659782
+      Townspeople_56: -5913666298054342262
+      Townspeople_57: -9070806005871405577
+      Townspeople_58: 8657528522904137783
+      Townspeople_59: 2062442973635794154
+      Townspeople_6: 7572115055892806787
+      Townspeople_60: -2721578998997504927
+      Townspeople_61: -7265968548316361407
+      Townspeople_62: -3237243612039403741
+      Townspeople_63: -3485161789196789786
+      Townspeople_64: -8730367350414361392
+      Townspeople_65: 4964407326085649527
+      Townspeople_66: -3980033189590126704
+      Townspeople_67: 4175416161202770233
+      Townspeople_68: 1818859281114919491
+      Townspeople_69: 5656772774462601866
+      Townspeople_7: 8524545302091726966
+      Townspeople_70: 3543876879194541260
+      Townspeople_71: 6120599415009852570
+      Townspeople_72: -588014688299204925
+      Townspeople_73: -184457739394387369
+      Townspeople_74: -9104530090442610293
+      Townspeople_75: -4055110153615606100
+      Townspeople_76: -8399509864413224162
+      Townspeople_77: 3920055492764828542
+      Townspeople_78: 4834604150475364645
+      Townspeople_79: -8735447652183007977
+      Townspeople_8: -3865009149045336125
+      Townspeople_80: 3947120460405797172
+      Townspeople_81: -2194435949329631499
+      Townspeople_82: 7409956609448667777
+      Townspeople_83: 2056520615676309052
+      Townspeople_84: 3146399786412069834
+      Townspeople_85: 2123655788958704971
+      Townspeople_86: 2638862790670039569
+      Townspeople_87: -2049666902915400330
+      Townspeople_88: -5020967357321523563
+      Townspeople_89: 262599285965848646
+      Townspeople_9: -765357280740264327
+      Townspeople_90: 1402817692112645786
+      Townspeople_91: -5406645225931823716
+      Townspeople_92: 3534154024092521380
+      Townspeople_93: 1947899808105488499
+      Townspeople_94: -2173969056432059812
+      Townspeople_95: -5267348417071429557
+      Townspeople_96: -1517390675338018194
+      Townspeople_97: 2580495418226129857
+      Townspeople_98: -5019293152018169646
+      Townspeople_99: -6158169309622797819
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
