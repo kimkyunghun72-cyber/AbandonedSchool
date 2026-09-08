@@ -36,8 +36,23 @@ public class PlayerController : MonoBehaviour
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
 
-        // 대각선 이동 속도가 빨라지지 않도록 정규화
-        moveInput = moveInput.normalized;
+
+        // =========================
+        // 대각선 이동 방지
+        // =========================
+        if (moveInput.x != 0 && moveInput.y != 0)
+        {
+            // 이전에 좌우를 보고 있었다면 좌우 이동 유지
+            if (lastDirection.x != 0)
+            {
+                moveInput.y = 0;
+            }
+            // 이전에 위아래를 보고 있었다면 위아래 이동 유지
+            else
+            {
+                moveInput.x = 0;
+            }
+        }
 
 
         // =========================
