@@ -1,0 +1,3419 @@
+fileFormatVersion: 2
+guid: 6fd9908d957b528418ccfb16fe6ed9fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8156972475159528891
+    second: Ghost phto2_0
+  - first:
+      213: -2096182918889582867
+    second: Ghost phto2_1
+  - first:
+      213: 3541178770095306367
+    second: Ghost phto2_2
+  - first:
+      213: 179338354998969300
+    second: Ghost phto2_3
+  - first:
+      213: 6946595532172506077
+    second: Ghost phto2_4
+  - first:
+      213: -3024495421947420595
+    second: Ghost phto2_5
+  - first:
+      213: 3763801475844499334
+    second: Ghost phto2_6
+  - first:
+      213: 6081620288474345993
+    second: Ghost phto2_7
+  - first:
+      213: 5471901827895892021
+    second: Ghost phto2_8
+  - first:
+      213: 4535762055716740379
+    second: Ghost phto2_9
+  - first:
+      213: -2299115868033484277
+    second: Ghost phto2_10
+  - first:
+      213: 7521598710658531509
+    second: Ghost phto2_11
+  - first:
+      213: -9138875632304566914
+    second: Ghost phto2_12
+  - first:
+      213: -2075812891464098890
+    second: Ghost phto2_13
+  - first:
+      213: -9092358781918318637
+    second: Ghost phto2_14
+  - first:
+      213: 8813288308202723976
+    second: Ghost phto2_15
+  - first:
+      213: 2078362624081778273
+    second: Ghost phto2_16
+  - first:
+      213: 1970047441144522112
+    second: Ghost phto2_17
+  - first:
+      213: -7604511808877756724
+    second: Ghost phto2_18
+  - first:
+      213: -8397039205422979704
+    second: Ghost phto2_19
+  - first:
+      213: -7977409951788808798
+    second: Ghost phto2_20
+  - first:
+      213: 5895992408714738800
+    second: Ghost phto2_21
+  - first:
+      213: -1448320006149421064
+    second: Ghost phto2_22
+  - first:
+      213: 1012822214159560252
+    second: Ghost phto2_23
+  - first:
+      213: -8006314924413268283
+    second: Ghost phto2_24
+  - first:
+      213: 2724558347669534795
+    second: Ghost phto2_25
+  - first:
+      213: 2291128105114959534
+    second: Ghost phto2_26
+  - first:
+      213: 4404255585167107680
+    second: Ghost phto2_27
+  - first:
+      213: -8453461379450048626
+    second: Ghost phto2_28
+  - first:
+      213: -1336116013265172544
+    second: Ghost phto2_29
+  - first:
+      213: -3193331219171086936
+    second: Ghost phto2_30
+  - first:
+      213: 5682248109571860342
+    second: Ghost phto2_31
+  - first:
+      213: 6985700280083099897
+    second: Ghost phto2_32
+  - first:
+      213: 9190829250292753829
+    second: Ghost phto2_33
+  - first:
+      213: 7870403057742646181
+    second: Ghost phto2_34
+  - first:
+      213: -4067700101622129759
+    second: Ghost phto2_35
+  - first:
+      213: 1732852284420618358
+    second: Ghost phto2_36
+  - first:
+      213: 3460328160036248995
+    second: Ghost phto2_37
+  - first:
+      213: -5760350652273672223
+    second: Ghost phto2_38
+  - first:
+      213: 2168654483180221660
+    second: Ghost phto2_39
+  - first:
+      213: -6090117671705050828
+    second: Ghost phto2_40
+  - first:
+      213: -5787246469009291002
+    second: Ghost phto2_41
+  - first:
+      213: 9214446062869444345
+    second: Ghost phto2_42
+  - first:
+      213: -3806017129660121735
+    second: Ghost phto2_43
+  - first:
+      213: 782154776016219783
+    second: Ghost phto2_44
+  - first:
+      213: -1447849453245593291
+    second: Ghost phto2_45
+  - first:
+      213: -6557171939412343500
+    second: Ghost phto2_46
+  - first:
+      213: 7608541240635700827
+    second: Ghost phto2_47
+  - first:
+      213: 5697758017859135445
+    second: Ghost phto2_48
+  - first:
+      213: -7445770550717753782
+    second: Ghost phto2_49
+  - first:
+      213: -4171169715582248723
+    second: Ghost phto2_50
+  - first:
+      213: 4377747359150010344
+    second: Ghost phto2_51
+  - first:
+      213: -5010498267081419178
+    second: Ghost phto2_52
+  - first:
+      213: -2711400266149539654
+    second: Ghost phto2_53
+  - first:
+      213: -7758489216444910533
+    second: Ghost phto2_54
+  - first:
+      213: 2982995311212032439
+    second: Ghost phto2_55
+  - first:
+      213: -5366479883423769302
+    second: Ghost phto2_56
+  - first:
+      213: 1216978024027228245
+    second: Ghost phto2_57
+  - first:
+      213: -6068064708094053073
+    second: Ghost phto2_58
+  - first:
+      213: -1172103012119522178
+    second: Ghost phto2_59
+  - first:
+      213: -8064195845541825966
+    second: Ghost phto2_60
+  - first:
+      213: -1271619411378772160
+    second: Ghost phto2_61
+  - first:
+      213: 2891690042286742342
+    second: Ghost phto2_62
+  - first:
+      213: 3967243005423077583
+    second: Ghost phto2_63
+  - first:
+      213: 805385312905921994
+    second: Ghost phto2_64
+  - first:
+      213: -350553627143852083
+    second: Ghost phto2_65
+  - first:
+      213: 4763986394056025930
+    second: Ghost phto2_66
+  - first:
+      213: 4694327991380299179
+    second: Ghost phto2_67
+  - first:
+      213: 1494847549887603430
+    second: Ghost phto2_68
+  - first:
+      213: 4377270917276621994
+    second: Ghost phto2_69
+  - first:
+      213: -1584704194654227053
+    second: Ghost phto2_70
+  - first:
+      213: 1151172735397128335
+    second: Ghost phto2_71
+  - first:
+      213: 7424980565829580930
+    second: Ghost phto2_72
+  - first:
+      213: -9037983375414243846
+    second: Ghost phto2_73
+  - first:
+      213: -2758389026763651582
+    second: Ghost phto2_74
+  - first:
+      213: 3239414738357348405
+    second: Ghost phto2_75
+  - first:
+      213: 7066230950322124398
+    second: Ghost phto2_76
+  - first:
+      213: 5411826142870644897
+    second: Ghost phto2_77
+  - first:
+      213: 3758055932663891191
+    second: Ghost phto2_78
+  - first:
+      213: -4514939716486558602
+    second: Ghost phto2_79
+  - first:
+      213: -5441144231989157346
+    second: Ghost phto2_80
+  - first:
+      213: 4869700348125544748
+    second: Ghost phto2_81
+  - first:
+      213: -2732774052928618591
+    second: Ghost phto2_82
+  - first:
+      213: 2835131662311353889
+    second: Ghost phto2_83
+  - first:
+      213: -3692593833430459295
+    second: Ghost phto2_84
+  - first:
+      213: -8899300176968329043
+    second: Ghost phto2_85
+  - first:
+      213: 5515216567739215451
+    second: Ghost phto2_86
+  - first:
+      213: 6153083706942855636
+    second: Ghost phto2_87
+  - first:
+      213: 5516138286536085700
+    second: Ghost phto2_88
+  - first:
+      213: 6626028169155810299
+    second: Ghost phto2_89
+  - first:
+      213: 8644738750138714415
+    second: Ghost phto2_90
+  - first:
+      213: 9122367998078898557
+    second: Ghost phto2_91
+  - first:
+      213: -4036026901544550017
+    second: Ghost phto2_92
+  - first:
+      213: -4644312179143135236
+    second: Ghost phto2_93
+  - first:
+      213: -2644461073510812078
+    second: Ghost phto2_94
+  - first:
+      213: -1334091705138819952
+    second: Ghost phto2_95
+  - first:
+      213: 6774338963563173159
+    second: Ghost phto2_96
+  - first:
+      213: -1088259828880524749
+    second: Ghost phto2_97
+  - first:
+      213: -3534863628509417331
+    second: Ghost phto2_98
+  - first:
+      213: -8381422768999924648
+    second: Ghost phto2_99
+  - first:
+      213: 6423971434852275512
+    second: Ghost phto2_100
+  - first:
+      213: -6490317946027011603
+    second: Ghost phto2_101
+  - first:
+      213: -2433866969338089250
+    second: Ghost phto2_102
+  - first:
+      213: 6323279208620566569
+    second: Ghost phto2_103
+  - first:
+      213: 6783071925392433098
+    second: Ghost phto2_104
+  - first:
+      213: 6161071707875001213
+    second: Ghost phto2_105
+  - first:
+      213: -8191914501087822894
+    second: Ghost phto2_106
+  - first:
+      213: -6713886177851222214
+    second: Ghost phto2_107
+  - first:
+      213: -3909102189736066786
+    second: Ghost phto2_108
+  - first:
+      213: 847774813485396100
+    second: Ghost phto2_109
+  - first:
+      213: -4509434244657754679
+    second: Ghost phto2_110
+  - first:
+      213: -9056431917410926185
+    second: Ghost phto2_111
+  - first:
+      213: -5046391324871632150
+    second: Ghost phto2_112
+  - first:
+      213: -4956653792462683851
+    second: Ghost phto2_113
+  - first:
+      213: -1763958958899347409
+    second: Ghost phto2_114
+  - first:
+      213: 5584745978266506584
+    second: Ghost phto2_115
+  - first:
+      213: 7033630095058145163
+    second: Ghost phto2_116
+  - first:
+      213: 8336395979490351267
+    second: Ghost phto2_117
+  - first:
+      213: 9145095027062387233
+    second: Ghost phto2_118
+  - first:
+      213: -7408301187349723668
+    second: Ghost phto2_119
+  - first:
+      213: -5604744686856950759
+    second: Ghost phto2_120
+  - first:
+      213: -9168969664826092605
+    second: Ghost phto2_121
+  - first:
+      213: -3372477495964553852
+    second: Ghost phto2_122
+  - first:
+      213: 2090318683851660575
+    second: Ghost phto2_123
+  - first:
+      213: 2497697591003815619
+    second: Ghost phto2_124
+  - first:
+      213: -2151987426691638196
+    second: Ghost phto2_125
+  - first:
+      213: 4204887941807173318
+    second: Ghost phto2_126
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ghost phto2_0
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 615
+        width: 392
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5c588af33633170800000000000000
+      internalID: 8156972475159528891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_1
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 923
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee4857cdbcd8e2e0800000000000000
+      internalID: -2096182918889582867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_2
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 925
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f767fa5545bc42130800000000000000
+      internalID: 3541178770095306367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_3
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 925
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d30150a8432d7200800000000000000
+      internalID: 179338354998969300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_4
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 923
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd33575f4d3476060800000000000000
+      internalID: 6946595532172506077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_5
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 923
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40670e2075d606d0800000000000000
+      internalID: -3024495421947420595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_6
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 925
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6876dc43085bb3430800000000000000
+      internalID: 3763801475844499334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_7
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 925
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90272593e61466450800000000000000
+      internalID: 6081620288474345993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_8
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 923
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5389b8998b910fb40800000000000000
+      internalID: 5471901827895892021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 925
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d11b4ee8342fe30800000000000000
+      internalID: 4535762055716740379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_10
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 643
+        width: 150
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a766c9c46e710e0800000000000000
+      internalID: -2299115868033484277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_11
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 643
+        width: 141
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b086db1d26126860800000000000000
+      internalID: 7521598710658531509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_12
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 643
+        width: 159
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d430248013c2180800000000000000
+      internalID: -9138875632304566914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_13
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 644
+        width: 139
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb1b106c2b3133e0800000000000000
+      internalID: -2075812891464098890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_14
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 791
+        width: 118
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfea597cd371d180800000000000000
+      internalID: -9092358781918318637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_15
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 791
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ad68185071f4a70800000000000000
+      internalID: 8813288308202723976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_16
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 791
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166d7d28bc3d7dc10800000000000000
+      internalID: 2078362624081778273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_17
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 774
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0852610c5b3075b10800000000000000
+      internalID: 1970047441144522112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_18
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 774
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccef39ddcc8577690800000000000000
+      internalID: -7604511808877756724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_19
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 774
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8852cb30559b77b80800000000000000
+      internalID: -8397039205422979704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_20
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 774
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a546fb3aeb8a4190800000000000000
+      internalID: -7977409951788808798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_21
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 774
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c77df7bd5c2d150800000000000000
+      internalID: 5895992408714738800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_22
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 774
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f74f50c0a886ebe0800000000000000
+      internalID: -1448320006149421064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_23
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 774
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3eea9700744e0e00800000000000000
+      internalID: 1012822214159560252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_24
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 774
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce407adefad3e090800000000000000
+      internalID: -8006314924413268283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_25
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 774
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48faa2c1639fc520800000000000000
+      internalID: 2724558347669534795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_26
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 774
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae7a486fd8bbcf10800000000000000
+      internalID: 2291128105114959534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_27
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 774
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0666ae5be1f0f1d30800000000000000
+      internalID: 4404255585167107680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_28
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 774
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f656be9a54faa80800000000000000
+      internalID: -8453461379450048626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_29
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 774
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c74e92a099257de0800000000000000
+      internalID: -1336116013265172544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_30
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 646
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad6427dc220fa3d0800000000000000
+      internalID: -3193331219171086936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_31
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 644
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6776aa0cc866bde40800000000000000
+      internalID: 5682248109571860342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_32
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 646
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f033b5946132f060800000000000000
+      internalID: 6985700280083099897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_33
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 618
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a528fe02826c8f70800000000000000
+      internalID: 9190829250292753829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_34
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 618
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab06efb1e9493d60800000000000000
+      internalID: 7870403057742646181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_35
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 618
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab1ef52f40ac87c0800000000000000
+      internalID: -4067700101622129759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 618
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6787d1db8f35c0810800000000000000
+      internalID: 1732852284420618358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_37
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 618
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3addd31c02e850030800000000000000
+      internalID: 3460328160036248995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_38
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 618
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efb985f99f1f00b0800000000000000
+      internalID: -5760350652273672223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_39
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 618
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4f38e23cb981e10800000000000000
+      internalID: 2168654483180221660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_40
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 618
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43101b19e3e8b7ba0800000000000000
+      internalID: -6090117671705050828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_41
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 618
+        width: 46
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6094113aff19fafa0800000000000000
+      internalID: -5787246469009291002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_42
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 618
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6745bbfd940ef70800000000000000
+      internalID: 9214446062869444345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_43
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 618
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d7e81f59f4e2bc0800000000000000
+      internalID: -3806017129660121735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_44
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 618
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e62dfef95cada00800000000000000
+      internalID: 782154776016219783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_45
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 618
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5398d03e79438ebe0800000000000000
+      internalID: -1447849453245593291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_46
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 622
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4350b2cccde3005a0800000000000000
+      internalID: -6557171939412343500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_47
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 622
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56300352f7f69960800000000000000
+      internalID: 7608541240635700827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_48
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 622
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7a0aeaab0821f40800000000000000
+      internalID: 5697758017859135445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_49
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 622
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46576d222f4ba890800000000000000
+      internalID: -7445770550717753782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_50
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 622
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de85ad45e370d16c0800000000000000
+      internalID: -4171169715582248723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_51
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 622
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef6a826702e0cc30800000000000000
+      internalID: 4377747359150010344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_52
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 622
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656d6e27f52277ab0800000000000000
+      internalID: -5010498267081419178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_53
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 622
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0d144d2db2f5ad0800000000000000
+      internalID: -2711400266149539654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_54
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 622
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b343a14f92f445490800000000000000
+      internalID: -7758489216444910533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_55
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 622
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1f2735e6ab56920800000000000000
+      internalID: 2982995311212032439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_56
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 622
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d1f369afe6685b0800000000000000
+      internalID: -5366479883423769302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_57
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 622
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5588995a01393e010800000000000000
+      internalID: 1216978024027228245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_58
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 622
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2538f74c47e9cba0800000000000000
+      internalID: -6068064708094053073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_59
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 571
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e745372458adbbfe0800000000000000
+      internalID: -1172103012119522178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_60
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 571
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2527c4bba98361090800000000000000
+      internalID: -8064195845541825966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_61
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 571
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047e647f1ec4a5ee0800000000000000
+      internalID: -1271619411378772160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_62
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 571
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b190bc5c8512820800000000000000
+      internalID: 2891690042286742342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_63
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 571
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc845eb7e7a7e0730800000000000000
+      internalID: 3967243005423077583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_64
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 571
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5031bccad4d2b00800000000000000
+      internalID: 805385312905921994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_65
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 571
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfad5b5555922bf0800000000000000
+      internalID: -350553627143852083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_66
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 571
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47e08c72641d1240800000000000000
+      internalID: 4763986394056025930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_67
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 563
+        width: 581
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad4561cf6a952140800000000000000
+      internalID: 4694327991380299179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_68
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 563
+        width: 583
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2e9643de3ceb410800000000000000
+      internalID: 1494847549887603430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_69
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 364
+        width: 118
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacdbed15b03fbc30800000000000000
+      internalID: 4377270917276621994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_70
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 364
+        width: 113
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395309b5eeff10ae0800000000000000
+      internalID: -1584704194654227053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_71
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 364
+        width: 113
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88e570f089c9ff00800000000000000
+      internalID: 1151172735397128335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_72
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 364
+        width: 116
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28873724c74da0760800000000000000
+      internalID: 7424980565829580930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_73
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 364
+        width: 113
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd4c8e5102a29280800000000000000
+      internalID: -9037983375414243846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_74
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 364
+        width: 114
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206ca637bcb38b9d0800000000000000
+      internalID: -2758389026763651582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_75
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 364
+        width: 114
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53864f79a86b4fc20800000000000000
+      internalID: 3239414738357348405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_76
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 364
+        width: 113
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6632de5c9b401260800000000000000
+      internalID: 7066230950322124398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_77
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 364
+        width: 112
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a82aff243baa1b40800000000000000
+      internalID: 5411826142870644897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_78
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 364
+        width: 113
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f40b70b5fb472430800000000000000
+      internalID: 3758055932663891191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_79
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 334
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c0480cf36b751c0800000000000000
+      internalID: -4514939716486558602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_80
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 334
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12ee90462c2d74b0800000000000000
+      internalID: -5441144231989157346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_81
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 334
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c218e947aa6a49340800000000000000
+      internalID: 4869700348125544748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_82
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 334
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aff8cb4a7c331ad0800000000000000
+      internalID: -2732774052928618591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_83
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 334
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ee787c939685720800000000000000
+      internalID: 2835131662311353889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_84
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 334
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c5492097541ccc0800000000000000
+      internalID: -3692593833430459295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_85
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 334
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da85b3ab3a55f7480800000000000000
+      internalID: -8899300176968329043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_86
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 334
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ee17b5f3cf98c40800000000000000
+      internalID: 5515216567739215451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_87
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 334
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d99291f705246550800000000000000
+      internalID: 6153083706942855636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_88
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 334
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c05aecbb824d8c40800000000000000
+      internalID: 5516138286536085700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_89
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 288
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3934e738164fb50800000000000000
+      internalID: 6626028169155810299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_90
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 288
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29821a671848f770800000000000000
+      internalID: 8644738750138714415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_91
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 288
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7152e3ac59299e70800000000000000
+      internalID: 9122367998078898557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_92
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 288
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f714485bae62df7c0800000000000000
+      internalID: -4036026901544550017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_93
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 288
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff27200ea61c8fb0800000000000000
+      internalID: -4644312179143135236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_94
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 288
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2563a032aacfc4bd0800000000000000
+      internalID: -2644461073510812078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_95
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 287
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09cc76999aa5c7de0800000000000000
+      internalID: -1334091705138819952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_96
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 288
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72555473569430e50800000000000000
+      internalID: 6774338963563173159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_97
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 287
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33abf349379b5e0f0800000000000000
+      internalID: -1088259828880524749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_98
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 288
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d807f352244a1fec0800000000000000
+      internalID: -3534863628509417331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_99
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 288
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c7365f5643fab80800000000000000
+      internalID: -8381422768999924648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_100
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 288
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83550adfbf7862950800000000000000
+      internalID: 6423971434852275512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_101
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 281
+        width: 1221
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de197bb1732cde5a0800000000000000
+      internalID: -6490317946027011603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_102
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 57
+        width: 130
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0fb06f2ea293ed0800000000000000
+      internalID: -2433866969338089250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_103
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 58
+        width: 135
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928217520fcc0c750800000000000000
+      internalID: 6323279208620566569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_104
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 57
+        width: 136
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfd0f65aff422e50800000000000000
+      internalID: 6783071925392433098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_105
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 57
+        width: 132
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7349975316808550800000000000000
+      internalID: 6161071707875001213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_106
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 67
+        width: 278
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbf944f929705e80800000000000000
+      internalID: -8191914501087822894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_107
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 33
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37d5cac71c73d2a0800000000000000
+      internalID: -6713886177851222214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_108
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 33
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11841e054410c9c0800000000000000
+      internalID: -3909102189736066786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_109
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 33
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480f15f73b6e3cb00800000000000000
+      internalID: 847774813485396100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_110
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 33
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd413d42754b61c0800000000000000
+      internalID: -4509434244657754679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_111
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 33
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79146367727115280800000000000000
+      internalID: -9056431917410926185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_112
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 33
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aead963b3dd97f9b0800000000000000
+      internalID: -5046391324871632150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_113
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 33
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5314ba123ad663bb0800000000000000
+      internalID: -4956653792462683851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_114
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 33
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20cf683ca82587e0800000000000000
+      internalID: -1763958958899347409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_115
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 33
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855dd53c0e0018d40800000000000000
+      internalID: 5584745978266506584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_116
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 33
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f00714e497c9160800000000000000
+      internalID: 7033630095058145163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_117
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 33
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a85488a9f3d0b370800000000000000
+      internalID: 8336395979490351267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_118
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 33
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122be3d6977e9ee70800000000000000
+      internalID: 9145095027062387233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_119
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 33
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce54aea225d603990800000000000000
+      internalID: -7408301187349723668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_120
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 33
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c222b0762f732b0800000000000000
+      internalID: -5604744686856950759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_121
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 33
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c355bb4ba641c080800000000000000
+      internalID: -9168969664826092605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_122
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 33
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48da808e59d8231d0800000000000000
+      internalID: -3372477495964553852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_123
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 33
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d175a94cd420d10800000000000000
+      internalID: 2090318683851660575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_124
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 33
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce9124c9ba99a220800000000000000
+      internalID: 2497697591003815619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_125
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 33
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c10fe46da9222e0800000000000000
+      internalID: -2151987426691638196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost phto2_126
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 33
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce6dbbfd43ca5a30800000000000000
+      internalID: 4204887941807173318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ghost phto2_0: 8156972475159528891
+      Ghost phto2_1: -2096182918889582867
+      Ghost phto2_10: -2299115868033484277
+      Ghost phto2_100: 6423971434852275512
+      Ghost phto2_101: -6490317946027011603
+      Ghost phto2_102: -2433866969338089250
+      Ghost phto2_103: 6323279208620566569
+      Ghost phto2_104: 6783071925392433098
+      Ghost phto2_105: 6161071707875001213
+      Ghost phto2_106: -8191914501087822894
+      Ghost phto2_107: -6713886177851222214
+      Ghost phto2_108: -3909102189736066786
+      Ghost phto2_109: 847774813485396100
+      Ghost phto2_11: 7521598710658531509
+      Ghost phto2_110: -4509434244657754679
+      Ghost phto2_111: -9056431917410926185
+      Ghost phto2_112: -5046391324871632150
+      Ghost phto2_113: -4956653792462683851
+      Ghost phto2_114: -1763958958899347409
+      Ghost phto2_115: 5584745978266506584
+      Ghost phto2_116: 7033630095058145163
+      Ghost phto2_117: 8336395979490351267
+      Ghost phto2_118: 9145095027062387233
+      Ghost phto2_119: -7408301187349723668
+      Ghost phto2_12: -9138875632304566914
+      Ghost phto2_120: -5604744686856950759
+      Ghost phto2_121: -9168969664826092605
+      Ghost phto2_122: -3372477495964553852
+      Ghost phto2_123: 2090318683851660575
+      Ghost phto2_124: 2497697591003815619
+      Ghost phto2_125: -2151987426691638196
+      Ghost phto2_126: 4204887941807173318
+      Ghost phto2_13: -2075812891464098890
+      Ghost phto2_14: -9092358781918318637
+      Ghost phto2_15: 8813288308202723976
+      Ghost phto2_16: 2078362624081778273
+      Ghost phto2_17: 1970047441144522112
+      Ghost phto2_18: -7604511808877756724
+      Ghost phto2_19: -8397039205422979704
+      Ghost phto2_2: 3541178770095306367
+      Ghost phto2_20: -7977409951788808798
+      Ghost phto2_21: 5895992408714738800
+      Ghost phto2_22: -1448320006149421064
+      Ghost phto2_23: 1012822214159560252
+      Ghost phto2_24: -8006314924413268283
+      Ghost phto2_25: 2724558347669534795
+      Ghost phto2_26: 2291128105114959534
+      Ghost phto2_27: 4404255585167107680
+      Ghost phto2_28: -8453461379450048626
+      Ghost phto2_29: -1336116013265172544
+      Ghost phto2_3: 179338354998969300
+      Ghost phto2_30: -3193331219171086936
+      Ghost phto2_31: 5682248109571860342
+      Ghost phto2_32: 6985700280083099897
+      Ghost phto2_33: 9190829250292753829
+      Ghost phto2_34: 7870403057742646181
+      Ghost phto2_35: -4067700101622129759
+      Ghost phto2_36: 1732852284420618358
+      Ghost phto2_37: 3460328160036248995
+      Ghost phto2_38: -5760350652273672223
+      Ghost phto2_39: 2168654483180221660
+      Ghost phto2_4: 6946595532172506077
+      Ghost phto2_40: -6090117671705050828
+      Ghost phto2_41: -5787246469009291002
+      Ghost phto2_42: 9214446062869444345
+      Ghost phto2_43: -3806017129660121735
+      Ghost phto2_44: 782154776016219783
+      Ghost phto2_45: -1447849453245593291
+      Ghost phto2_46: -6557171939412343500
+      Ghost phto2_47: 7608541240635700827
+      Ghost phto2_48: 5697758017859135445
+      Ghost phto2_49: -7445770550717753782
+      Ghost phto2_5: -3024495421947420595
+      Ghost phto2_50: -4171169715582248723
+      Ghost phto2_51: 4377747359150010344
+      Ghost phto2_52: -5010498267081419178
+      Ghost phto2_53: -2711400266149539654
+      Ghost phto2_54: -7758489216444910533
+      Ghost phto2_55: 2982995311212032439
+      Ghost phto2_56: -5366479883423769302
+      Ghost phto2_57: 1216978024027228245
+      Ghost phto2_58: -6068064708094053073
+      Ghost phto2_59: -1172103012119522178
+      Ghost phto2_6: 3763801475844499334
+      Ghost phto2_60: -8064195845541825966
+      Ghost phto2_61: -1271619411378772160
+      Ghost phto2_62: 2891690042286742342
+      Ghost phto2_63: 3967243005423077583
+      Ghost phto2_64: 805385312905921994
+      Ghost phto2_65: -350553627143852083
+      Ghost phto2_66: 4763986394056025930
+      Ghost phto2_67: 4694327991380299179
+      Ghost phto2_68: 1494847549887603430
+      Ghost phto2_69: 4377270917276621994
+      Ghost phto2_7: 6081620288474345993
+      Ghost phto2_70: -1584704194654227053
+      Ghost phto2_71: 1151172735397128335
+      Ghost phto2_72: 7424980565829580930
+      Ghost phto2_73: -9037983375414243846
+      Ghost phto2_74: -2758389026763651582
+      Ghost phto2_75: 3239414738357348405
+      Ghost phto2_76: 7066230950322124398
+      Ghost phto2_77: 5411826142870644897
+      Ghost phto2_78: 3758055932663891191
+      Ghost phto2_79: -4514939716486558602
+      Ghost phto2_8: 5471901827895892021
+      Ghost phto2_80: -5441144231989157346
+      Ghost phto2_81: 4869700348125544748
+      Ghost phto2_82: -2732774052928618591
+      Ghost phto2_83: 2835131662311353889
+      Ghost phto2_84: -3692593833430459295
+      Ghost phto2_85: -8899300176968329043
+      Ghost phto2_86: 5515216567739215451
+      Ghost phto2_87: 6153083706942855636
+      Ghost phto2_88: 5516138286536085700
+      Ghost phto2_89: 6626028169155810299
+      Ghost phto2_9: 4535762055716740379
+      Ghost phto2_90: 8644738750138714415
+      Ghost phto2_91: 9122367998078898557
+      Ghost phto2_92: -4036026901544550017
+      Ghost phto2_93: -4644312179143135236
+      Ghost phto2_94: -2644461073510812078
+      Ghost phto2_95: -1334091705138819952
+      Ghost phto2_96: 6774338963563173159
+      Ghost phto2_97: -1088259828880524749
+      Ghost phto2_98: -3534863628509417331
+      Ghost phto2_99: -8381422768999924648
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

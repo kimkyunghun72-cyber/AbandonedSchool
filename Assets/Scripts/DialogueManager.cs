@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class DialogueManager : MonoBehaviour
@@ -12,6 +13,10 @@ public class DialogueManager : MonoBehaviour
     [Header("공포 텍스트")]
     [SerializeField] private GameObject horrorPanel;
     [SerializeField] private TMP_Text horrorText;
+    [SerializeField] private TMP_Text horrorSpeakerNameText;
+    [Header("사진 UI")]
+    [SerializeField] private GameObject photoPanel;
+    [SerializeField] private Image photoImage;
 
     [Header("플레이어")]
     [SerializeField] private PlayerController playerController;
@@ -25,6 +30,13 @@ public class DialogueManager : MonoBehaviour
 
     private Coroutine typingCoroutine;
     private TMP_Text currentText;
+    private bool isPhotoOpen = false;
+
+    private Sprite pendingPhoto;
+    private string photoFollowUpSpeaker;
+    private string photoFollowUpMessage;
+
+    private bool showPhotoAcquiredNext = false;
 
 
     // =========================
@@ -43,8 +55,11 @@ public class DialogueManager : MonoBehaviour
     {
         dialoguePanel.SetActive(false);
         horrorPanel.SetActive(false);
+        photoPanel.SetActive(false);
 
         speakerNameText.gameObject.SetActive(false);
+        // 공포 이름표 처음에는 숨김
+        horrorSpeakerNameText.gameObject.SetActive(false);
     }
 
 
@@ -65,6 +80,24 @@ public class DialogueManager : MonoBehaviour
         currentText = dialogueText;
 
         StartDialogue(message);
+    }
+    // =========================
+    // 이름표 없는 여러 문장
+    // =========================
+    public void ShowNarrationSequence(params string[] messages)
+    {
+        dialogueMessages = messages;
+        currentMessageIndex = 0;
+
+        dialoguePanel.SetActive(true);
+        horrorPanel.SetActive(false);
+
+        // 조사/시스템 메시지는 이름표 숨김
+        speakerNameText.gameObject.SetActive(false);
+
+        currentText = dialogueText;
+
+        StartDialogue( dialogueMessages[currentMessageIndex] );
     }
 
 
@@ -98,6 +131,26 @@ public class DialogueManager : MonoBehaviour
 
         dialoguePanel.SetActive(false);
         horrorPanel.SetActive(true);
+
+        // 이름표 없는 공포 문장
+        horrorSpeakerNameText.gameObject.SetActive(false);
+
+        currentText = horrorText;
+
+        StartDialogue(message);
+    }
+    // =========================
+    // 공포 대화 - 이름표 있음
+    // =========================
+    public void ShowHorrorDialogue(string speaker, string message)
+    {
+        dialogueMessages = null;
+
+        dialoguePanel.SetActive(false);
+        horrorPanel.SetActive(true);
+
+        horrorSpeakerNameText.text = speaker;
+        horrorSpeakerNameText.gameObject.SetActive(true);
 
         currentText = horrorText;
 
@@ -169,6 +222,25 @@ public class DialogueManager : MonoBehaviour
             CompleteTyping();
             return;
         }
+        // =========================
+        // 사진을 보고 있는 상태
+        // =========================
+        if (isPhotoOpen)
+        {
+            photoPanel.SetActive(false);
+            isPhotoOpen = false;
+
+            string speaker = photoFollowUpSpeaker;
+            string message = photoFollowUpMessage;
+
+            photoFollowUpSpeaker = null;
+            photoFollowUpMessage = null;
+
+            showPhotoAcquiredNext = true;
+            ShowDialogueSequence( speaker, message );
+
+            return;
+        }
 
 
         // 예약된 다음 독백이 있으면 출력
@@ -198,7 +270,22 @@ public class DialogueManager : MonoBehaviour
 
             return;
         }
+        // =========================
+        // 예약된 사진이 있으면 사진 표시
+        // =========================
+        if (pendingPhoto != null)
+        {
+            ShowPendingPhoto();
+            return;
+        }
+        if (showPhotoAcquiredNext)
+        {
+            showPhotoAcquiredNext = false;
 
+            ShowDialogue("사진을 얻었다.");
+
+            return;
+        }
 
         HideDialogue();
     }
@@ -237,6 +324,12 @@ public class DialogueManager : MonoBehaviour
 
         dialoguePanel.SetActive(false);
         horrorPanel.SetActive(false);
+        photoPanel.SetActive(false);
+
+        // 이름표들 숨김
+        speakerNameText.gameObject.SetActive(false);
+        horrorSpeakerNameText.gameObject.SetActive(false);
+
 
         isDialogueOpen = false;
         isTyping = false;
@@ -248,6 +341,40 @@ public class DialogueManager : MonoBehaviour
         {
             playerController.SetMovementLocked(false);
         }
+    }
+    // =========================
+    // 다음에 사진 보여주기 예약
+    // =========================
+    public void SetNextPhoto( Sprite photo, string followUpSpeaker, string followUpMessage)
+    {
+        pendingPhoto = photo;
+
+        photoFollowUpSpeaker = followUpSpeaker;
+        photoFollowUpMessage = followUpMessage;
+    }
+
+
+    // =========================
+    // 사진 표시
+    // =========================
+    private void ShowPendingPhoto()
+    {
+        if (pendingPhoto == null)
+        {
+            return;
+        }
+
+        dialoguePanel.SetActive(false);
+        horrorPanel.SetActive(false);
+
+        photoImage.sprite = pendingPhoto;
+        photoPanel.SetActive(true);
+
+        isPhotoOpen = true;
+        isDialogueOpen = true;
+
+        // 사진을 띄웠으므로 예약된 사진은 제거
+        pendingPhoto = null;
     }
 
 

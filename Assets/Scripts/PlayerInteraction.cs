@@ -12,8 +12,6 @@ public class PlayerInteraction : MonoBehaviour
     // 마지막으로 바라보는 방향
     private Vector2 lookDirection = Vector2.down;
 
-    private bool doorChecked = false;
-
 
     void Update()
     {
@@ -25,7 +23,7 @@ public class PlayerInteraction : MonoBehaviour
         // =========================
         if (Input.GetKeyDown(KeyCode.E))
         {
-            // 대화창이 이미 열려 있음
+            // 대화창이 이미 열려 있으면 다음 대사
             if (dialogueManager != null &&
                 dialogueManager.IsDialogueOpen())
             {
@@ -79,7 +77,12 @@ public class PlayerInteraction : MonoBehaviour
 
     private void TryInteract()
     {
-        RaycastHit2D hit = Physics2D.Raycast( transform.position, lookDirection, interactionDistance, interactableLayer );
+        RaycastHit2D hit = Physics2D.Raycast(
+            transform.position,
+            lookDirection,
+            interactionDistance,
+            interactableLayer
+        );
 
 
         if (hit.collider == null)
@@ -92,34 +95,50 @@ public class PlayerInteraction : MonoBehaviour
 
 
         // =========================
+        // 퍼즐 책상
+        // =========================
+        PuzzleDesk puzzleDesk =
+            hit.collider.GetComponentInParent<PuzzleDesk>();
+
+        if (puzzleDesk != null)
+        {
+            puzzleDesk.Interact();
+            return;
+        }
+
+
+        // =========================
+        // 교실 탈출 문 이벤트
+        // =========================
+        ClassroomDoorEvent classroomDoor =
+            hit.collider.GetComponentInParent<ClassroomDoorEvent>();
+
+        if (classroomDoor != null)
+        {
+            classroomDoor.Interact();
+            return;
+        }
+
+
+        // =========================
         // 조사 오브젝트
         // =========================
         InspectableObject inspectable =
-    hit.collider.GetComponentInParent<InspectableObject>();
+            hit.collider.GetComponentInParent<InspectableObject>();
 
         if (inspectable != null)
         {
             if (inspectable.UseHorrorText())
             {
-                // =========================
-                // 교실 문 첫 조사
-                // =========================
-                if (inspectable.gameObject.name == "class1 door" && !doorChecked)
-                {
-                    doorChecked = true;
-
-                    dialogueManager.SetNextDialogue(
-                        "렌",
-                        "일단 여길 나갈 방법을 찾아야겠어..."
-                    );
-                }
-
-
-                dialogueManager.ShowHorrorText( inspectable.GetMessage() );
+                dialogueManager.ShowHorrorText(
+                    inspectable.GetMessage()
+                );
             }
             else
             {
-                dialogueManager.ShowDialogue( inspectable.GetMessage() );
+                dialogueManager.ShowDialogue(
+                    inspectable.GetMessage()
+                );
             }
 
             return;
@@ -129,18 +148,23 @@ public class PlayerInteraction : MonoBehaviour
         // =========================
         // 전등 스위치
         // =========================
-        LightSwitch lightSwitch = hit.collider.GetComponentInParent<LightSwitch>();
+        LightSwitch lightSwitch =
+            hit.collider.GetComponentInParent<LightSwitch>();
 
         if (lightSwitch != null)
         {
             lightSwitch.Interact();
+            return;
         }
     }
 
 
     private void OnDrawGizmos()
     {
-        Gizmos.DrawLine( transform.position, transform.position + (Vector3)(lookDirection * interactionDistance) );
+        Gizmos.DrawLine(
+            transform.position,
+            transform.position +
+            (Vector3)(lookDirection * interactionDistance)
+        );
     }
-
 }
