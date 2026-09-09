@@ -11,10 +11,10 @@ public class PlayerController : MonoBehaviour
     private bool isMovementLocked = false;
 
     private Vector2 moveInput;
-    private Vector2 lastDirection = Vector2.down;
+    private Vector2 lastDirection = Vector2.up;
 
 
-    void Start()
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponentInChildren<Animator>();
@@ -151,7 +151,11 @@ public class PlayerController : MonoBehaviour
         if (locked)
         {
             moveInput = Vector2.zero;
-            rb.linearVelocity = Vector2.zero;
+
+            if (rb != null)
+            {
+                rb.linearVelocity = Vector2.zero;
+            }
         }
     }
 }

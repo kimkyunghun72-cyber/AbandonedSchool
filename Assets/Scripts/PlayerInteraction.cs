@@ -12,6 +12,8 @@ public class PlayerInteraction : MonoBehaviour
     // 마지막으로 바라보는 방향
     private Vector2 lookDirection = Vector2.down;
 
+    private bool doorChecked = false;
+
 
     void Update()
     {
@@ -92,12 +94,27 @@ public class PlayerInteraction : MonoBehaviour
         // =========================
         // 조사 오브젝트
         // =========================
-        InspectableObject inspectable = hit.collider.GetComponentInParent<InspectableObject>();
+        InspectableObject inspectable =
+    hit.collider.GetComponentInParent<InspectableObject>();
 
         if (inspectable != null)
         {
             if (inspectable.UseHorrorText())
             {
+                // =========================
+                // 교실 문 첫 조사
+                // =========================
+                if (inspectable.gameObject.name == "class1 door" && !doorChecked)
+                {
+                    doorChecked = true;
+
+                    dialogueManager.SetNextDialogue(
+                        "렌",
+                        "일단 여길 나갈 방법을 찾아야겠어..."
+                    );
+                }
+
+
                 dialogueManager.ShowHorrorText( inspectable.GetMessage() );
             }
             else
@@ -125,4 +142,5 @@ public class PlayerInteraction : MonoBehaviour
     {
         Gizmos.DrawLine( transform.position, transform.position + (Vector3)(lookDirection * interactionDistance) );
     }
+
 }
