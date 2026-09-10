@@ -76,7 +76,10 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false);
         horrorPanel.SetActive(false);
         photoPanel.SetActive(false);
-        rosterPanel.SetActive(false);
+        if (rosterPanel != null)
+        {
+            rosterPanel.SetActive(false);
+        }
 
         speakerNameText.gameObject.SetActive(false);
         // 공포 이름표 처음에는 숨김
@@ -396,7 +399,10 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false);
         horrorPanel.SetActive(false);
         photoPanel.SetActive(false);
-        rosterPanel.SetActive(false);
+        if (rosterPanel != null)
+        {
+            rosterPanel.SetActive(false);
+        }
 
         // 이름표들 숨김
         speakerNameText.gameObject.SetActive(false);
