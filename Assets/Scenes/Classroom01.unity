@@ -8394,8 +8394,14 @@ MonoBehaviour:
   horrorSpeakerNameText: {fileID: 1790550950}
   photoPanel: {fileID: 882625821}
   photoImage: {fileID: 1202738845}
+  rosterPanel: {fileID: 0}
+  rosterImage: {fileID: 0}
   playerController: {fileID: 165662840}
   typingSpeed: 0.04
+  rosterDarkPanel: {fileID: 0}
+  rosterSilenceTime: 0.7
+  horrorHoldTime: 0.7
+  darkFadeTime: 0.35
 --- !u!114 &1867325515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9974,6 +9980,14 @@ PrefabInstance:
     - target: {fileID: 4863300998525096930, guid: 65638283139cc7a45827572f28826be0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720593604732726031, guid: 65638283139cc7a45827572f28826be0, type: 3}
+      propertyPath: m_Size.y
+      value: 3.4587712
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720593604732726031, guid: 65638283139cc7a45827572f28826be0, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.52938557
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
