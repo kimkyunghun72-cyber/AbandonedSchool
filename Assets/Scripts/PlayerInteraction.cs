@@ -88,6 +88,17 @@ public class PlayerInteraction : MonoBehaviour
 
         Debug.Log("상호작용 성공 : " + hit.collider.gameObject.name);
 
+        // =========================
+        // 낡은 반 명단
+        // =========================
+        ClassRosterEvent classRoster = hit.collider.GetComponentInParent<ClassRosterEvent>();
+
+        if (classRoster != null)
+        {
+            classRoster.Interact();
+            return;
+        }
+
 
         // =========================
         // 퍼즐 책상
@@ -111,16 +122,7 @@ public class PlayerInteraction : MonoBehaviour
             classroomDoor.Interact();
             return;
         }
-        // =========================
-        // 복도 잠긴 교실 문
-        // =========================
-        LockedClassroomDoor lockedDoor = hit.collider.GetComponentInParent<LockedClassroomDoor>();
-
-        if (lockedDoor != null)
-        {
-            lockedDoor.Interact();
-            return;
-        }
+      
 
         // =========================
         // 조사 오브젝트
@@ -138,6 +140,16 @@ public class PlayerInteraction : MonoBehaviour
                 dialogueManager.ShowDialogue( inspectable.GetMessage());
             }
 
+            return;
+        }
+        // =========================
+        // 복도 잠긴 교실 문
+        // =========================
+        LockedClassroomDoor lockedDoor = hit.collider.GetComponentInParent<LockedClassroomDoor>();
+
+        if (lockedDoor != null)
+        {
+            lockedDoor.Interact();
             return;
         }
 

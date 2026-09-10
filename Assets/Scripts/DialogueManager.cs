@@ -17,6 +17,9 @@ public class DialogueManager : MonoBehaviour
     [Header("사진 UI")]
     [SerializeField] private GameObject photoPanel;
     [SerializeField] private Image photoImage;
+    [Header("명단 UI")]
+    [SerializeField] private GameObject rosterPanel;
+    [SerializeField] private Image rosterImage;
 
     [Header("플레이어")]
     [SerializeField] private PlayerController playerController;
@@ -24,6 +27,16 @@ public class DialogueManager : MonoBehaviour
     [Header("텍스트 출력 속도")]
     [SerializeField] private float typingSpeed = 0.04f;
 
+    [Header("명단 공포 암전")]
+    [SerializeField] private CanvasGroup rosterDarkPanel;
+
+    [SerializeField] private float rosterSilenceTime = 0.7f;
+    [SerializeField] private float horrorHoldTime = 0.7f;
+    [SerializeField] private float darkFadeTime = 0.35f;
+    
+
+    private bool isRosterHorrorPlaying = false;
+    private bool isWaitingRosterClose = false;
 
     private bool isDialogueOpen = false;
     private bool isTyping = false;
@@ -35,6 +48,13 @@ public class DialogueManager : MonoBehaviour
     private Sprite pendingPhoto;
     private string photoFollowUpSpeaker;
     private string photoFollowUpMessage;
+    private Sprite pendingRoster;
+    private string[] pendingRosterMessages;
+    private Sprite corruptedRoster;
+    private string rosterHorrorMessage;
+    private bool hasRosterHorror = false;
+
+
 
     private bool showPhotoAcquiredNext = false;
 
@@ -56,10 +76,15 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false);
         horrorPanel.SetActive(false);
         photoPanel.SetActive(false);
+        rosterPanel.SetActive(false);
 
         speakerNameText.gameObject.SetActive(false);
         // 공포 이름표 처음에는 숨김
         horrorSpeakerNameText.gameObject.SetActive(false);
+        if (rosterDarkPanel != null)
+        {
+            rosterDarkPanel.alpha = 0f;
+        }
     }
 
 
@@ -214,14 +239,42 @@ public class DialogueManager : MonoBehaviour
     // =========================
     // E키
     // =========================
-    public void ContinueDialogue()
+   public void ContinueDialogue()
+{
+    // =========================
+    // 명단 공포 연출 중에는
+    // E 입력 완전히 무시
+    // =========================
+    if (isRosterHorrorPlaying)
     {
-        // 글자가 아직 출력 중이면 전부 표시
-        if (isTyping)
+        return;
+    }
+        // =========================
+        // 변형된 명단을 보고 있는 상태
+        // E를 누르면 닫기
+        // =========================
+        if (isWaitingRosterClose)
         {
-            CompleteTyping();
+            isWaitingRosterClose = false;
+
+            rosterPanel.SetActive(false);
+            horrorPanel.SetActive(false);
+
+            corruptedRoster = null;
+            rosterHorrorMessage = null;
+
+            HideDialogue();
             return;
         }
+
+
+
+        // 글자가 아직 출력 중이면 전부 표시
+        if (isTyping)
+    {
+        CompleteTyping();
+        return;
+    }
         // =========================
         // 사진을 보고 있는 상태
         // =========================
@@ -268,6 +321,24 @@ public class DialogueManager : MonoBehaviour
 
             StartDialogue( dialogueMessages[currentMessageIndex] );
 
+            return;
+        }
+        // =========================
+        // 명단 공포 연출
+        // =========================
+        if (hasRosterHorror &&
+            rosterPanel != null &&
+            rosterPanel.activeSelf)
+        {
+            StartCoroutine(RosterHorrorSequence());
+            return;
+        }
+        // =========================
+        // 예약된 명단이 있으면 명단 표시
+        // =========================
+        if (pendingRoster != null)
+        {
+            ShowPendingRoster();
             return;
         }
         // =========================
@@ -325,6 +396,7 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false);
         horrorPanel.SetActive(false);
         photoPanel.SetActive(false);
+        rosterPanel.SetActive(false);
 
         // 이름표들 숨김
         speakerNameText.gameObject.SetActive(false);
@@ -375,6 +447,149 @@ public class DialogueManager : MonoBehaviour
 
         // 사진을 띄웠으므로 예약된 사진은 제거
         pendingPhoto = null;
+    }
+    // =========================
+    // 다음에 명단 보여주기 예약
+    // =========================
+    public void SetNextRoster(Sprite roster, params string[] messages)
+    {
+        pendingRoster = roster;
+        pendingRosterMessages = messages;
+    }
+
+
+    // =========================
+    // 명단 표시
+    // =========================
+    private void ShowPendingRoster()
+    {
+        if (pendingRoster == null)
+        {
+            return;
+        }
+
+        rosterImage.sprite = pendingRoster;
+        rosterPanel.SetActive(true);
+
+        // 명단 위에 일반 대화창 표시
+        dialoguePanel.SetActive(true);
+        horrorPanel.SetActive(false);
+
+        // 설명문이므로 이름표 숨김
+        speakerNameText.gameObject.SetActive(false);
+
+        dialogueMessages = pendingRosterMessages;
+        currentMessageIndex = 0;
+
+        currentText = dialogueText;
+
+        // 예약 제거
+        pendingRoster = null;
+        pendingRosterMessages = null;
+
+        StartDialogue(dialogueMessages[currentMessageIndex]);
+    }
+    // =========================
+    // 명단 공포 연출 예약
+    // =========================
+    public void SetRosterHorror(Sprite corruptedSprite, string horrorMessage)
+    {
+        corruptedRoster = corruptedSprite;
+        rosterHorrorMessage = horrorMessage;
+        hasRosterHorror = true;
+    }
+    // =========================
+    // 명단 공포 연출
+    // =========================
+    private IEnumerator RosterHorrorSequence()
+    {
+        isRosterHorrorPlaying = true;
+        hasRosterHorror = false;
+
+        // 기존 일반 설명창 숨김
+        dialoguePanel.SetActive(false);
+
+        dialogueMessages = null;
+        currentMessageIndex = 0;
+
+
+        // =========================
+        // 잠깐 정적
+        // =========================
+        yield return new WaitForSecondsRealtime(rosterSilenceTime);
+
+
+        // =========================
+        // 빨간 공포 텍스트
+        // =========================
+        ShowHorrorText(rosterHorrorMessage);
+
+        // 글자가 전부 출력될 때까지 기다림
+        yield return new WaitUntil(() => !isTyping);
+
+        // 글씨가 나온 상태로 잠깐 유지
+        yield return new WaitForSecondsRealtime(horrorHoldTime);
+
+
+        // =========================
+        // 화면 살짝 암전
+        // =========================
+        yield return StartCoroutine(
+            FadeRosterDark(0.4f, darkFadeTime)
+        );
+
+
+        // =========================
+        // 명단 변형
+        // =========================
+        if (rosterImage != null &&
+            corruptedRoster != null)
+        {
+            rosterImage.sprite = corruptedRoster;
+        }
+
+        // =========================
+        // 변형된 명단을 계속 보여줌
+        // =========================
+
+        // 빨간 공포 텍스트는 여기서 숨김
+        horrorPanel.SetActive(false);
+
+        // 자동 연출은 끝
+        isRosterHorrorPlaying = false;
+
+        // 이제 E를 기다림
+        isWaitingRosterClose = true;
+    }
+
+
+    // =========================
+    // 명단 공포 암전
+    // =========================
+    private IEnumerator FadeRosterDark(float targetAlpha, float duration)
+    {
+        if (rosterDarkPanel == null)
+        {
+            yield break;
+        }
+
+        float startAlpha = rosterDarkPanel.alpha;
+        float time = 0f;
+
+        while (time < duration)
+        {
+            time += Time.unscaledDeltaTime;
+
+            rosterDarkPanel.alpha = Mathf.Lerp(
+                startAlpha,
+                targetAlpha,
+                time / duration
+            );
+
+            yield return null;
+        }
+
+        rosterDarkPanel.alpha = targetAlpha;
     }
 
 
