@@ -8,16 +8,27 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
 
+    [Header("시작 방향")]
+    [SerializeField] private Vector2 startDirection = Vector2.down;
+
     private bool isMovementLocked = false;
 
     private Vector2 moveInput;
-    private Vector2 lastDirection = Vector2.up;
+    private Vector2 lastDirection;
 
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponentInChildren<Animator>();
+    }
+    void Start()
+    {
+        // Inspector에서 지정한 방향으로 시작
+        lastDirection = startDirection;
+
+        // 시작하자마자 해당 방향 Idle 재생
+        UpdateAnimation();
     }
 
 

@@ -77,12 +77,7 @@ public class PlayerInteraction : MonoBehaviour
 
     private void TryInteract()
     {
-        RaycastHit2D hit = Physics2D.Raycast(
-            transform.position,
-            lookDirection,
-            interactionDistance,
-            interactableLayer
-        );
+        RaycastHit2D hit = Physics2D.Raycast( transform.position, lookDirection, interactionDistance, interactableLayer );
 
 
         if (hit.collider == null)
@@ -97,8 +92,7 @@ public class PlayerInteraction : MonoBehaviour
         // =========================
         // 퍼즐 책상
         // =========================
-        PuzzleDesk puzzleDesk =
-            hit.collider.GetComponentInParent<PuzzleDesk>();
+        PuzzleDesk puzzleDesk = hit.collider.GetComponentInParent<PuzzleDesk>();
 
         if (puzzleDesk != null)
         {
@@ -110,35 +104,38 @@ public class PlayerInteraction : MonoBehaviour
         // =========================
         // 교실 탈출 문 이벤트
         // =========================
-        ClassroomDoorEvent classroomDoor =
-            hit.collider.GetComponentInParent<ClassroomDoorEvent>();
+        ClassroomDoorEvent classroomDoor = hit.collider.GetComponentInParent<ClassroomDoorEvent>();
 
         if (classroomDoor != null)
         {
             classroomDoor.Interact();
             return;
         }
+        // =========================
+        // 복도 잠긴 교실 문
+        // =========================
+        LockedClassroomDoor lockedDoor = hit.collider.GetComponentInParent<LockedClassroomDoor>();
 
+        if (lockedDoor != null)
+        {
+            lockedDoor.Interact();
+            return;
+        }
 
         // =========================
         // 조사 오브젝트
         // =========================
-        InspectableObject inspectable =
-            hit.collider.GetComponentInParent<InspectableObject>();
+        InspectableObject inspectable = hit.collider.GetComponentInParent<InspectableObject>();
 
         if (inspectable != null)
         {
             if (inspectable.UseHorrorText())
             {
-                dialogueManager.ShowHorrorText(
-                    inspectable.GetMessage()
-                );
+                dialogueManager.ShowHorrorText( inspectable.GetMessage() );
             }
             else
             {
-                dialogueManager.ShowDialogue(
-                    inspectable.GetMessage()
-                );
+                dialogueManager.ShowDialogue( inspectable.GetMessage());
             }
 
             return;
@@ -148,8 +145,7 @@ public class PlayerInteraction : MonoBehaviour
         // =========================
         // 전등 스위치
         // =========================
-        LightSwitch lightSwitch =
-            hit.collider.GetComponentInParent<LightSwitch>();
+        LightSwitch lightSwitch = hit.collider.GetComponentInParent<LightSwitch>();
 
         if (lightSwitch != null)
         {
@@ -161,10 +157,6 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Gizmos.DrawLine(
-            transform.position,
-            transform.position +
-            (Vector3)(lookDirection * interactionDistance)
-        );
+        Gizmos.DrawLine( transform.position, transform.position + (Vector3)(lookDirection * interactionDistance) );
     }
 }
