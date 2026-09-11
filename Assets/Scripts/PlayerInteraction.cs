@@ -123,6 +123,16 @@ public class PlayerInteraction : MonoBehaviour
             return;
         }
         // =========================
+        // 두 번째 게시판
+        // =========================
+        SecondBulletinBoard secondBulletin = hit.collider.GetComponentInParent<SecondBulletinBoard>();
+
+        if (secondBulletin != null)
+        {
+            secondBulletin.Interact();
+            return;
+        }
+        // =========================
         // 1-3반 문
         // =========================
         Classroom13Door classroom13Door = hit.collider.GetComponentInParent<Classroom13Door>();
@@ -132,7 +142,16 @@ public class PlayerInteraction : MonoBehaviour
             classroom13Door.Interact();
             return;
         }
+        // =========================
+        // 복도 소화기
+        // =========================
+        FireExtinguisherEvent fireExtinguisher =  hit.collider.GetComponentInParent<FireExtinguisherEvent>();
 
+        if (fireExtinguisher != null)
+        {
+            fireExtinguisher.Interact();
+            return;
+        }
 
         // =========================
         // 조사 오브젝트
@@ -160,6 +179,16 @@ public class PlayerInteraction : MonoBehaviour
         if (lockedDoor != null)
         {
             lockedDoor.Interact();
+            return;
+        }
+        // =========================
+        // 복도 전등 스위치
+        // =========================
+        CorridorLightSwitch corridorLightSwitch = hit.collider.GetComponentInParent<CorridorLightSwitch>();
+
+        if (corridorLightSwitch != null)
+        {
+            corridorLightSwitch.Interact();
             return;
         }
 
