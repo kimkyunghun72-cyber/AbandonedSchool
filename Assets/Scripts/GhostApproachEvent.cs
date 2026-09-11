@@ -18,6 +18,8 @@ public class GhostApproachEvent : MonoBehaviour
 
     private bool eventStarted = false;
 
+    public bool EventFinished { get; private set; } = false;
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -86,7 +88,8 @@ public class GhostApproachEvent : MonoBehaviour
         {
             ghostGirl.SetActive(false);
         }
-
+        // Ghost 이벤트 완료
+        EventFinished = true;
 
         // =========================
         // 다시 이동 가능

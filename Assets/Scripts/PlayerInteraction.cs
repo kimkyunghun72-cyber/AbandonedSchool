@@ -122,7 +122,17 @@ public class PlayerInteraction : MonoBehaviour
             classroomDoor.Interact();
             return;
         }
-      
+        // =========================
+        // 1-3반 문
+        // =========================
+        Classroom13Door classroom13Door = hit.collider.GetComponentInParent<Classroom13Door>();
+
+        if (classroom13Door != null)
+        {
+            classroom13Door.Interact();
+            return;
+        }
+
 
         // =========================
         // 조사 오브젝트

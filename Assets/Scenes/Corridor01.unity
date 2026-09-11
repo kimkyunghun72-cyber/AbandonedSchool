@@ -7103,6 +7103,7 @@ Transform:
   - {fileID: 529732989}
   - {fileID: 558551262}
   - {fileID: 1254717737}
+  - {fileID: 1747523274}
   - {fileID: 1833175708}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9785,7 +9786,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1254717737}
-  - component: {fileID: 1254717736}
+  - component: {fileID: 1254717738}
   m_Layer: 0
   m_Name: ClassroomDoor_1-3
   m_TagString: Untagged
@@ -9793,22 +9794,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1254717736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1254717735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4265d0a32884c145a15f73cf940c15e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LockedClassroomDoor
-  dialogueManager: {fileID: 1867325514}
-  messages:
-  - "\uBB38\uC774 \uC5F4\uB9AC\uC9C0 \uC54A\uB294\uB2E4."
-  - "\uBB38\uC740 \uB2E4\uC2DC \uC7A0\uACA8 \uBC84\uB838\uB2E4."
 --- !u!4 &1254717737
 Transform:
   m_ObjectHideFlags: 0
@@ -9824,10 +9809,22 @@ Transform:
   m_Children:
   - {fileID: 1522311142}
   - {fileID: 1530779109}
-  - {fileID: 1747523274}
   - {fileID: 2021679544}
   m_Father: {fileID: 556802676}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1254717738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254717735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6fa6a37f0a4df74fa48fcbef3384b1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Classroom13Door
+  dialogueManager: {fileID: 1867325514}
 --- !u!1 &1272775092
 GameObject:
   m_ObjectHideFlags: 0
@@ -11043,7 +11040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1522311142}
   - component: {fileID: 1522311143}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DoorSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12716,11 +12713,11 @@ Transform:
   m_GameObject: {fileID: 1747523273}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.9929004, y: 5.02531, z: 0}
+  m_LocalPosition: {x: 32.380856, y: 0.76810026, z: 0}
   m_LocalScale: {x: 0.15334842, y: 0.15334842, z: 0.15334842}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1254717737}
+  m_Father: {fileID: 556802676}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1747523275
 SpriteRenderer:
