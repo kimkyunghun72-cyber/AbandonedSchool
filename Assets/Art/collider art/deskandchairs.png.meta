@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: c8d13e2197f09434cbfefab17dc300e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5160812652801524775
+    second: deskandchairs_0
+  - first:
+      213: 3996028022985089976
+    second: deskandchairs_1
+  - first:
+      213: -3658354466849326909
+    second: deskandchairs_2
+  - first:
+      213: 1597055474260755869
+    second: deskandchairs_3
+  - first:
+      213: -4839545153415571764
+    second: deskandchairs_4
+  - first:
+      213: 9049910004143585322
+    second: deskandchairs_5
+  - first:
+      213: -6641295362265730866
+    second: deskandchairs_6
+  - first:
+      213: 5861641930493309637
+    second: deskandchairs_7
+  - first:
+      213: -572167601772545312
+    second: deskandchairs_8
+  - first:
+      213: 8907554876243792629
+    second: deskandchairs_9
+  - first:
+      213: -7070007982428523036
+    second: deskandchairs_10
+  - first:
+      213: -7656832877311213817
+    second: deskandchairs_11
+  - first:
+      213: 1628419985468007907
+    second: deskandchairs_12
+  - first:
+      213: 122345014634271565
+    second: deskandchairs_13
+  - first:
+      213: -161687722700721145
+    second: deskandchairs_14
+  - first:
+      213: -5345335144896735650
+    second: deskandchairs_15
+  - first:
+      213: 993052329032279699
+    second: deskandchairs_16
+  - first:
+      213: 6845282839764444333
+    second: deskandchairs_17
+  - first:
+      213: 4721422510023198222
+    second: deskandchairs_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: deskandchairs_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 98
+        width: 1383
+        height: 988
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724839ab3c3ee9740800000000000000
+      internalID: 5160812652801524775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ce5d5438e37ca0b45a067fb389d895c6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      deskandchairs_0: 5160812652801524775
+      deskandchairs_1: 3996028022985089976
+      deskandchairs_10: -7070007982428523036
+      deskandchairs_11: -7656832877311213817
+      deskandchairs_12: 1628419985468007907
+      deskandchairs_13: 122345014634271565
+      deskandchairs_14: -161687722700721145
+      deskandchairs_15: -5345335144896735650
+      deskandchairs_16: 993052329032279699
+      deskandchairs_17: 6845282839764444333
+      deskandchairs_18: 4721422510023198222
+      deskandchairs_2: -3658354466849326909
+      deskandchairs_3: 1597055474260755869
+      deskandchairs_4: -4839545153415571764
+      deskandchairs_5: 9049910004143585322
+      deskandchairs_6: -6641295362265730866
+      deskandchairs_7: 5861641930493309637
+      deskandchairs_8: -572167601772545312
+      deskandchairs_9: 8907554876243792629
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: d52424c9f077c7d4994adec77a48653e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7521819415133862119
+    second: dirty1_0
+  - first:
+      213: 6069242862381139740
+    second: dirty1_1
+  - first:
+      213: 7969117500796873084
+    second: dirty1_2
+  - first:
+      213: -7948103335171618925
+    second: dirty1_3
+  - first:
+      213: 8591773244503862567
+    second: dirty1_4
+  - first:
+      213: -3976501910534670691
+    second: dirty1_5
+  - first:
+      213: 5373669700067264056
+    second: dirty1_6
+  - first:
+      213: 8759096543461697220
+    second: dirty1_7
+  - first:
+      213: 6362118163089504561
+    second: dirty1_8
+  - first:
+      213: 5728227504724897098
+    second: dirty1_9
+  - first:
+      213: 4357291080728478261
+    second: dirty1_10
+  - first:
+      213: 1608372994188763507
+    second: dirty1_11
+  - first:
+      213: 3113494778632900784
+    second: dirty1_12
+  - first:
+      213: 2117745770854993809
+    second: dirty1_13
+  - first:
+      213: -6707414172115113829
+    second: dirty1_14
+  - first:
+      213: -8582839641933527742
+    second: dirty1_15
+  - first:
+      213: 8650168507967293211
+    second: dirty1_16
+  - first:
+      213: 5669738168892896101
+    second: dirty1_17
+  - first:
+      213: -8294658509864644196
+    second: dirty1_18
+  - first:
+      213: -5180921602988262477
+    second: dirty1_19
+  - first:
+      213: -7808851012286547024
+    second: dirty1_20
+  - first:
+      213: 8958590574181326885
+    second: dirty1_21
+  - first:
+      213: -8792597122276398045
+    second: dirty1_22
+  - first:
+      213: 1553118971441464159
+    second: dirty1_23
+  - first:
+      213: -2158327367134447068
+    second: dirty1_24
+  - first:
+      213: -3440594336382697750
+    second: dirty1_25
+  - first:
+      213: -5000680151653114868
+    second: dirty1_26
+  - first:
+      213: -4065093841305338454
+    second: dirty1_27
+  - first:
+      213: -2034978387506859227
+    second: dirty1_28
+  - first:
+      213: 3574140930539662381
+    second: dirty1_29
+  - first:
+      213: 1852741486881198047
+    second: dirty1_30
+  - first:
+      213: 7072449753890814768
+    second: dirty1_31
+  - first:
+      213: 1434717001289668836
+    second: dirty1_32
+  - first:
+      213: -16929071901395176
+    second: dirty1_33
+  - first:
+      213: -9147794201679147806
+    second: dirty1_34
+  - first:
+      213: -1899312408347446178
+    second: dirty1_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dirty1_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 56
+        width: 1127
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c178dc32a384a3450800000000000000
+      internalID: 6069242862381139740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: aefe7257bcb568d42bb9b4b34dd5d866
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dirty1_0: 7521819415133862119
+      dirty1_1: 6069242862381139740
+      dirty1_10: 4357291080728478261
+      dirty1_11: 1608372994188763507
+      dirty1_12: 3113494778632900784
+      dirty1_13: 2117745770854993809
+      dirty1_14: -6707414172115113829
+      dirty1_15: -8582839641933527742
+      dirty1_16: 8650168507967293211
+      dirty1_17: 5669738168892896101
+      dirty1_18: -8294658509864644196
+      dirty1_19: -5180921602988262477
+      dirty1_2: 7969117500796873084
+      dirty1_20: -7808851012286547024
+      dirty1_21: 8958590574181326885
+      dirty1_22: -8792597122276398045
+      dirty1_23: 1553118971441464159
+      dirty1_24: -2158327367134447068
+      dirty1_25: -3440594336382697750
+      dirty1_26: -5000680151653114868
+      dirty1_27: -4065093841305338454
+      dirty1_28: -2034978387506859227
+      dirty1_29: 3574140930539662381
+      dirty1_3: -7948103335171618925
+      dirty1_30: 1852741486881198047
+      dirty1_31: 7072449753890814768
+      dirty1_32: 1434717001289668836
+      dirty1_33: -16929071901395176
+      dirty1_34: -9147794201679147806
+      dirty1_35: -1899312408347446178
+      dirty1_4: 8591773244503862567
+      dirty1_5: -3976501910534670691
+      dirty1_6: 5373669700067264056
+      dirty1_7: 8759096543461697220
+      dirty1_8: 6362118163089504561
+      dirty1_9: 5728227504724897098
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponentInChildren<Animator>();
     }
+
+
     void Start()
     {
         // Inspector에서 지정한 방향으로 시작
@@ -34,13 +36,19 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-
+        // =========================
+        // 이동 잠금 상태
+        // =========================
         if (isMovementLocked)
         {
             moveInput = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
+
             UpdateAnimation();
             return;
         }
+
+
         // =========================
         // 이동 입력
         // =========================
@@ -84,12 +92,19 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        // =========================
+        // 이동 잠금 상태
+        // =========================
         if (isMovementLocked)
         {
             rb.linearVelocity = Vector2.zero;
             return;
         }
 
+
+        // =========================
+        // 실제 이동
+        // =========================
         rb.linearVelocity = moveInput * moveSpeed;
     }
 
@@ -155,6 +170,11 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+
+    // =========================
+    // 이동 잠금 / 해제
+    // =========================
     public void SetMovementLocked(bool locked)
     {
         isMovementLocked = locked;
@@ -166,6 +186,12 @@ public class PlayerController : MonoBehaviour
             if (rb != null)
             {
                 rb.linearVelocity = Vector2.zero;
+            }
+
+            // 즉시 Idle 애니메이션으로 변경
+            if (anim != null)
+            {
+                UpdateAnimation();
             }
         }
     }
