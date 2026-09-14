@@ -1,0 +1,1152 @@
+fileFormatVersion: 2
+guid: 579fe69334a90a04ab82bcfa73f0f91a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6956397325646212164
+    second: hidden room object_0
+  - first:
+      213: -1544288331005274070
+    second: hidden room object_1
+  - first:
+      213: -4244064099516204782
+    second: hidden room object_2
+  - first:
+      213: -1186694556657203443
+    second: hidden room object_3
+  - first:
+      213: -7116727508167954875
+    second: hidden room object_4
+  - first:
+      213: 4732719090531735634
+    second: hidden room object_5
+  - first:
+      213: -6716975065754501620
+    second: hidden room object_6
+  - first:
+      213: 9197450421347139077
+    second: hidden room object_7
+  - first:
+      213: -796786253032153001
+    second: hidden room object_8
+  - first:
+      213: 6937859697601957904
+    second: hidden room object_9
+  - first:
+      213: -1943843306398052109
+    second: hidden room object_10
+  - first:
+      213: 3368285233818437057
+    second: hidden room object_11
+  - first:
+      213: -1889060353171419163
+    second: hidden room object_12
+  - first:
+      213: -7856654868799700556
+    second: hidden room object_13
+  - first:
+      213: -5233262041428383914
+    second: hidden room object_14
+  - first:
+      213: -5302305676336150718
+    second: hidden room object_15
+  - first:
+      213: 3734751337481110790
+    second: hidden room object_16
+  - first:
+      213: 6163224465051041187
+    second: hidden room object_17
+  - first:
+      213: -1533089393676514410
+    second: hidden room object_18
+  - first:
+      213: -3309155848236962574
+    second: hidden room object_19
+  - first:
+      213: -8219375510559065834
+    second: hidden room object_20
+  - first:
+      213: -756340030265766970
+    second: hidden room object_21
+  - first:
+      213: 183900007389016869
+    second: hidden room object_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hidden room object_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 703
+        width: 176
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb351682d79e57f90800000000000000
+      internalID: -6956397325646212164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 751
+        width: 115
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2856a7e1f5919ae0800000000000000
+      internalID: -1544288331005274070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_2
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 753
+        width: 200
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2193950003e0a15c0800000000000000
+      internalID: -4244064099516204782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_3
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 739
+        width: 155
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07ce8d8693088fe0800000000000000
+      internalID: -1186694556657203443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_4
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 733
+        width: 197
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ee560990e4c3d90800000000000000
+      internalID: -7116727508167954875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_5
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 745
+        width: 103
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2589ad410fefda140800000000000000
+      internalID: 4732719090531735634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_6
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 745
+        width: 103
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0efb8804c288c2a0800000000000000
+      internalID: -6716975065754501620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_7
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 701
+        width: 152
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50eb9a39d68e3af70800000000000000
+      internalID: 9197450421347139077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 490
+        width: 226
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750aa1adf1f31f4f0800000000000000
+      internalID: -796786253032153001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_9
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 491
+        width: 108
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0105019f2aa384060800000000000000
+      internalID: 6937859697601957904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_10
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 361
+        width: 193
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f09f1fcfc41605e0800000000000000
+      internalID: -1943843306398052109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_11
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 364
+        width: 97
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c501fff29d8ebe20800000000000000
+      internalID: 3368285233818437057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_12
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 363
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef81f11e95b8c5e0800000000000000
+      internalID: -1889060353171419163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_13
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 373
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1c95ee50e87f290800000000000000
+      internalID: -7856654868799700556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_14
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 39
+        width: 219
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657202c76e7bf57b0800000000000000
+      internalID: -5233262041428383914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_15
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 45
+        width: 89
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2474277841d6a66b0800000000000000
+      internalID: -5302305676336150718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_16
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 44
+        width: 87
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6050afacd8084d330800000000000000
+      internalID: 3734751337481110790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_17
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 45
+        width: 73
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad3d5e2ffb288550800000000000000
+      internalID: 6163224465051041187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_18
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 47
+        width: 121
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b0ef0b15f59bae0800000000000000
+      internalID: -1533089393676514410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_19
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 46
+        width: 139
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fced67e9448312d0800000000000000
+      internalID: -3309155848236962574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_20
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 44
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619f4917589eeed80800000000000000
+      internalID: -8219375510559065834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_21
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 28
+        width: 206
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbc99eefb0f085f0800000000000000
+      internalID: -756340030265766970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_22
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 62
+        width: 241
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5233d9615185d8200800000000000000
+      internalID: 183900007389016869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_23
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 738
+        width: 160
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da8a41670eb7ee4081fccda5158d171
+      internalID: -1686976577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_24
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 490
+        width: 334
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390b0eff6eb291343a6d961dc909695e
+      internalID: -119599750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_25
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 487
+        width: 205
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e63e7cc1ce020945ae69825e1bed8d1
+      internalID: -1499347060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_26
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 499
+        width: 136
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15094b66a9848445adad718592515bf
+      internalID: -103232879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_27
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 503
+        width: 93
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f374e6aa63a386146837328ebb1179e7
+      internalID: 370869792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_28
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 505
+        width: 82
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fc6b7be8226fb43bf1f865e5117d25
+      internalID: 1435009464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_29
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 360
+        width: 117
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f16a30d9fbf6fe4e96c6ca2ccb22256
+      internalID: 107500978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_30
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 355
+        width: 89
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477bd3e6e760a7c4e80a94fc264977da
+      internalID: 2021353678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_31
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 360
+        width: 90
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ec2e1ece26ccf43b9ca8e1f231a366
+      internalID: 17558302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_32
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 358
+        width: 94
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b07f1f58d5c0bb4c92fa1af35f3d61f
+      internalID: -1190791542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_33
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 355
+        width: 89
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7740db7ec70b9340964667a550fbc60
+      internalID: -104246791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_34
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 349
+        width: 99
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d56575fc13bda4f8cfec0f90253bb6
+      internalID: -1179318347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_35
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 208
+        width: 91
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4486e1827a0c0054e9e7caeaa4dd63df
+      internalID: 451503455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_36
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 187
+        width: 118
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3ae3780ad7b6149adf18b38b8bb25b
+      internalID: 1910566472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_37
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 201
+        width: 158
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ec9e362b0c56046ba23be46b57686b
+      internalID: -558468852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_38
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 216
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6890359bff2aec544b74954cf79c79ca
+      internalID: 1196645962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_39
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 179
+        width: 193
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5198d70bf6595fe45b060818ac723f58
+      internalID: 1367208573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_40
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 181
+        width: 170
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7184c7e289234746adbf2b83fe61076
+      internalID: 37085462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hidden room object_41
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 188
+        width: 172
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f827cf6aef7eda0458d6635c191ff593
+      internalID: -911870979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8c83421c8dd9e2d49929c8642fac25db
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hidden room object_0: -6956397325646212164
+      hidden room object_1: -1544288331005274070
+      hidden room object_10: -1943843306398052109
+      hidden room object_11: 3368285233818437057
+      hidden room object_12: -1889060353171419163
+      hidden room object_13: -7856654868799700556
+      hidden room object_14: -5233262041428383914
+      hidden room object_15: -5302305676336150718
+      hidden room object_16: 3734751337481110790
+      hidden room object_17: 6163224465051041187
+      hidden room object_18: -1533089393676514410
+      hidden room object_19: -3309155848236962574
+      hidden room object_2: -4244064099516204782
+      hidden room object_20: -8219375510559065834
+      hidden room object_21: -756340030265766970
+      hidden room object_22: 183900007389016869
+      hidden room object_23: -1686976577
+      hidden room object_24: -119599750
+      hidden room object_25: -1499347060
+      hidden room object_26: -103232879
+      hidden room object_27: 370869792
+      hidden room object_28: 1435009464
+      hidden room object_29: 107500978
+      hidden room object_3: -1186694556657203443
+      hidden room object_30: 2021353678
+      hidden room object_31: 17558302
+      hidden room object_32: -1190791542
+      hidden room object_33: -104246791
+      hidden room object_34: -1179318347
+      hidden room object_35: 451503455
+      hidden room object_36: 1910566472
+      hidden room object_37: -558468852
+      hidden room object_38: 1196645962
+      hidden room object_39: 1367208573
+      hidden room object_4: -7116727508167954875
+      hidden room object_40: 37085462
+      hidden room object_41: -911870979
+      hidden room object_5: 4732719090531735634
+      hidden room object_6: -6716975065754501620
+      hidden room object_7: 9197450421347139077
+      hidden room object_8: -796786253032153001
+      hidden room object_9: 6937859697601957904
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

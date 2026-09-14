@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: a89cd1f08c232734d996436f7c3eea57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8124469301228389344
+    second: class2 notice board_0
+  - first:
+      213: 2266855100122537859
+    second: class2 notice board_1
+  - first:
+      213: 8291433429149050592
+    second: class2 notice board_2
+  - first:
+      213: -3936479528624732422
+    second: class2 notice board_3
+  - first:
+      213: 1003268851336566961
+    second: class2 notice board_4
+  - first:
+      213: -7789385249113861003
+    second: class2 notice board_5
+  - first:
+      213: -1039074549313227643
+    second: class2 notice board_6
+  - first:
+      213: 4358608092658257396
+    second: class2 notice board_7
+  - first:
+      213: -8234287866119542435
+    second: class2 notice board_8
+  - first:
+      213: -8728236356323989030
+    second: class2 notice board_9
+  - first:
+      213: -9038906917108723658
+    second: class2 notice board_10
+  - first:
+      213: -8322344775839519896
+    second: class2 notice board_11
+  - first:
+      213: -2658872782710501079
+    second: class2 notice board_12
+  - first:
+      213: -5760885498192470068
+    second: class2 notice board_13
+  - first:
+      213: -1643419319266143532
+    second: class2 notice board_14
+  - first:
+      213: -7521438935636493481
+    second: class2 notice board_15
+  - first:
+      213: 7529667245528235911
+    second: class2 notice board_16
+  - first:
+      213: 6192850360411060207
+    second: class2 notice board_17
+  - first:
+      213: -2812542557543646908
+    second: class2 notice board_18
+  - first:
+      213: 1970580410154471710
+    second: class2 notice board_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: class2 notice board_11
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 226
+        width: 833
+        height: 756
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86be1c12587118c80800000000000000
+      internalID: -8322344775839519896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 56fac9d481749af48ae83e57da37242a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      class2 notice board_0: 8124469301228389344
+      class2 notice board_1: 2266855100122537859
+      class2 notice board_10: -9038906917108723658
+      class2 notice board_11: -8322344775839519896
+      class2 notice board_12: -2658872782710501079
+      class2 notice board_13: -5760885498192470068
+      class2 notice board_14: -1643419319266143532
+      class2 notice board_15: -7521438935636493481
+      class2 notice board_16: 7529667245528235911
+      class2 notice board_17: 6192850360411060207
+      class2 notice board_18: -2812542557543646908
+      class2 notice board_19: 1970580410154471710
+      class2 notice board_2: 8291433429149050592
+      class2 notice board_3: -3936479528624732422
+      class2 notice board_4: 1003268851336566961
+      class2 notice board_5: -7789385249113861003
+      class2 notice board_6: -1039074549313227643
+      class2 notice board_7: 4358608092658257396
+      class2 notice board_8: -8234287866119542435
+      class2 notice board_9: -8728236356323989030
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,643 @@
+fileFormatVersion: 2
+guid: 1ad01485955e07e4baa4ba878ae9a4cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3300730795633429926
+    second: class2 dirtys_0
+  - first:
+      213: -5689706800164491924
+    second: class2 dirtys_1
+  - first:
+      213: -5610488550063651923
+    second: class2 dirtys_2
+  - first:
+      213: -4583377429798211850
+    second: class2 dirtys_3
+  - first:
+      213: 4286469418431262772
+    second: class2 dirtys_4
+  - first:
+      213: 2542012639258147885
+    second: class2 dirtys_5
+  - first:
+      213: -3626502097954862406
+    second: class2 dirtys_6
+  - first:
+      213: 8649595745885563101
+    second: class2 dirtys_7
+  - first:
+      213: 3188731025694531999
+    second: class2 dirtys_8
+  - first:
+      213: 6398065955746931927
+    second: class2 dirtys_9
+  - first:
+      213: -3453738218373770587
+    second: class2 dirtys_10
+  - first:
+      213: 2022367927391555110
+    second: class2 dirtys_11
+  - first:
+      213: 3848360632346779458
+    second: class2 dirtys_12
+  - first:
+      213: 131586692248516597
+    second: class2 dirtys_13
+  - first:
+      213: -513069084229753533
+    second: class2 dirtys_14
+  - first:
+      213: 8839876909402539927
+    second: class2 dirtys_15
+  - first:
+      213: -8074547805637361117
+    second: class2 dirtys_16
+  - first:
+      213: 649983828733638399
+    second: class2 dirtys_17
+  - first:
+      213: -945071752690453383
+    second: class2 dirtys_18
+  - first:
+      213: -7906503688836706517
+    second: class2 dirtys_19
+  - first:
+      213: -1028854806588176758
+    second: class2 dirtys_20
+  - first:
+      213: -3889115538314337468
+    second: class2 dirtys_21
+  - first:
+      213: -101652057344712136
+    second: class2 dirtys_22
+  - first:
+      213: 1074627295527865845
+    second: class2 dirtys_23
+  - first:
+      213: 3461069119877994306
+    second: class2 dirtys_24
+  - first:
+      213: -2270444369856132025
+    second: class2 dirtys_25
+  - first:
+      213: 7295108819608822326
+    second: class2 dirtys_26
+  - first:
+      213: 7468005583052146811
+    second: class2 dirtys_27
+  - first:
+      213: 2214560875346341616
+    second: class2 dirtys_28
+  - first:
+      213: -1605890900857310390
+    second: class2 dirtys_29
+  - first:
+      213: -7853501164233070484
+    second: class2 dirtys_30
+  - first:
+      213: 3086151985528139438
+    second: class2 dirtys_31
+  - first:
+      213: 1746156372008770316
+    second: class2 dirtys_32
+  - first:
+      213: 5269160653690173804
+    second: class2 dirtys_33
+  - first:
+      213: -7839832872004590303
+    second: class2 dirtys_34
+  - first:
+      213: -5265068655513571508
+    second: class2 dirtys_35
+  - first:
+      213: 5299834137937368360
+    second: class2 dirtys_36
+  - first:
+      213: -209136232072923611
+    second: class2 dirtys_37
+  - first:
+      213: -6803522765540925932
+    second: class2 dirtys_38
+  - first:
+      213: 9043595269137196021
+    second: class2 dirtys_39
+  - first:
+      213: 7878793626874572356
+    second: class2 dirtys_40
+  - first:
+      213: 4832975322118559259
+    second: class2 dirtys_41
+  - first:
+      213: 7825789848023166821
+    second: class2 dirtys_42
+  - first:
+      213: -1157745109399504826
+    second: class2 dirtys_43
+  - first:
+      213: -6493773782703567393
+    second: class2 dirtys_44
+  - first:
+      213: 4675743242050223488
+    second: class2 dirtys_45
+  - first:
+      213: 3034673093486253103
+    second: class2 dirtys_46
+  - first:
+      213: -84614982002329142
+    second: class2 dirtys_47
+  - first:
+      213: -2187253385522088876
+    second: class2 dirtys_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: class2 dirtys_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 787
+        width: 423
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52b31354d27132d0800000000000000
+      internalID: -3300730795633429926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class2 dirtys_1
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 806
+        width: 359
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d22148fc91a01b0800000000000000
+      internalID: -5689706800164491924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class2 dirtys_2
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 768
+        width: 329
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da34f0da36a8322b0800000000000000
+      internalID: -5610488550063651923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class2 dirtys_3
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 787
+        width: 263
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fea559e2829460c0800000000000000
+      internalID: -4583377429798211850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class2 dirtys_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 517
+        width: 379
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430bb22b9399c7b30800000000000000
+      internalID: 4286469418431262772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class2 dirtys_5
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 258
+        width: 316
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2cf889f60b074320800000000000000
+      internalID: 2542012639258147885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class2 dirtys_6
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 24
+        width: 322
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba01325e831cadc0800000000000000
+      internalID: -3626502097954862406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class2 dirtys_7
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 20
+        width: 331
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd82d3cd089890870800000000000000
+      internalID: 8649595745885563101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class2 dirtys_10
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 513
+        width: 375
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a214aa936bd110d0800000000000000
+      internalID: -3453738218373770587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class2 dirtys_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 489
+        width: 330
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3452041e26631e8f0800000000000000
+      internalID: -513069084229753533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class2 dirtys_19
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 488
+        width: 277
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f829319c4764290800000000000000
+      internalID: -7906503688836706517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class2 dirtys_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 384
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247d669e600380030800000000000000
+      internalID: 3461069119877994306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class2 dirtys_28
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 261
+        width: 323
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe2f740263bbbe10800000000000000
+      internalID: 2214560875346341616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class2 dirtys_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 14
+        width: 437
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6865cefc42c20390800000000000000
+      internalID: -7853501164233070484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class2 dirtys_45
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 260
+        width: 309
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d365b94b393e040800000000000000
+      internalID: 4675743242050223488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9c9ce01449465954d993354402aa39f9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      class2 dirtys_0: -3300730795633429926
+      class2 dirtys_1: -5689706800164491924
+      class2 dirtys_10: -3453738218373770587
+      class2 dirtys_11: 2022367927391555110
+      class2 dirtys_12: 3848360632346779458
+      class2 dirtys_13: 131586692248516597
+      class2 dirtys_14: -513069084229753533
+      class2 dirtys_15: 8839876909402539927
+      class2 dirtys_16: -8074547805637361117
+      class2 dirtys_17: 649983828733638399
+      class2 dirtys_18: -945071752690453383
+      class2 dirtys_19: -7906503688836706517
+      class2 dirtys_2: -5610488550063651923
+      class2 dirtys_20: -1028854806588176758
+      class2 dirtys_21: -3889115538314337468
+      class2 dirtys_22: -101652057344712136
+      class2 dirtys_23: 1074627295527865845
+      class2 dirtys_24: 3461069119877994306
+      class2 dirtys_25: -2270444369856132025
+      class2 dirtys_26: 7295108819608822326
+      class2 dirtys_27: 7468005583052146811
+      class2 dirtys_28: 2214560875346341616
+      class2 dirtys_29: -1605890900857310390
+      class2 dirtys_3: -4583377429798211850
+      class2 dirtys_30: -7853501164233070484
+      class2 dirtys_31: 3086151985528139438
+      class2 dirtys_32: 1746156372008770316
+      class2 dirtys_33: 5269160653690173804
+      class2 dirtys_34: -7839832872004590303
+      class2 dirtys_35: -5265068655513571508
+      class2 dirtys_36: 5299834137937368360
+      class2 dirtys_37: -209136232072923611
+      class2 dirtys_38: -6803522765540925932
+      class2 dirtys_39: 9043595269137196021
+      class2 dirtys_4: 4286469418431262772
+      class2 dirtys_40: 7878793626874572356
+      class2 dirtys_41: 4832975322118559259
+      class2 dirtys_42: 7825789848023166821
+      class2 dirtys_43: -1157745109399504826
+      class2 dirtys_44: -6493773782703567393
+      class2 dirtys_45: 4675743242050223488
+      class2 dirtys_46: 3034673093486253103
+      class2 dirtys_47: -84614982002329142
+      class2 dirtys_48: -2187253385522088876
+      class2 dirtys_5: 2542012639258147885
+      class2 dirtys_6: -3626502097954862406
+      class2 dirtys_7: 8649595745885563101
+      class2 dirtys_8: 3188731025694531999
+      class2 dirtys_9: 6398065955746931927
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
