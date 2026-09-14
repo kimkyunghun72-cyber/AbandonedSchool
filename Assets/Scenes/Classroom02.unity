@@ -1208,6 +1208,53 @@ Transform:
   m_Children: []
   m_Father: {fileID: 364555}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -183.451}
+--- !u!1 &276893337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 276893339}
+  - component: {fileID: 276893338}
+  m_Layer: 0
+  m_Name: Classroom02 Start Event
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &276893338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276893337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aabb082ab93596e4b9b1720ad65ebbce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Classroom02StartEvent
+  playerController: {fileID: 165662840}
+  dialogueManager: {fileID: 1867325514}
+  startDelay: 0.5
+--- !u!4 &276893339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276893337}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.64538574, y: 0.33361816, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &282037695
 GameObject:
   m_ObjectHideFlags: 0
@@ -11251,14 +11298,13 @@ GameObject:
   - component: {fileID: 1867325512}
   - component: {fileID: 1867325511}
   - component: {fileID: 1867325514}
-  - component: {fileID: 1867325515}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1867325510
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11374,22 +11420,6 @@ MonoBehaviour:
   rosterSilenceTime: 0.7
   horrorHoldTime: 0.7
   darkFadeTime: 0.35
---- !u!114 &1867325515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1867325509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7fbeafa6e391574c8f70665b3c9b217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StartFade
-  dialogueManager: {fileID: 1867325514}
-  fadePanel: {fileID: 1202738844}
-  fadeDuration: 1
-  playerController: {fileID: 165662840}
 --- !u!1 &1906825237
 GameObject:
   m_ObjectHideFlags: 0
@@ -12756,3 +12786,4 @@ SceneRoots:
   - {fileID: 1317650113}
   - {fileID: 1748465976}
   - {fileID: 323689659}
+  - {fileID: 276893339}

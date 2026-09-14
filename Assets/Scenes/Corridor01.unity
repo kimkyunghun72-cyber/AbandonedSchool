@@ -11526,8 +11526,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClassRosterEvent
   dialogueManager: {fileID: 1867325514}
-  normalRoster: {fileID: -7631006693182876103, guid: 83826aa017fc40b4b98b25947540beef, type: 3}
-  corruptedRoster: {fileID: 318382179609045483, guid: 3c4d2d0c24b43b24ab57eeb632046a30, type: 3}
+  normalRoster: {fileID: -4407206075848518037, guid: f8836ac390262a446b7b505d49347c28, type: 3}
+  corruptedRoster: {fileID: 4630097786848953032, guid: 4f5c28c86768b3d4b812ed715062e949, type: 3}
 --- !u!1 &1297382963
 GameObject:
   m_ObjectHideFlags: 0
