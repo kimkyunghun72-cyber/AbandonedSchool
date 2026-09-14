@@ -11158,7 +11158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Classroom13Door
   dialogueManager: {fileID: 1867325514}
   fireExtinguisherEvent: {fileID: 520423890}
-  classroom13SceneName: Classroom03
+  classroom13SceneName: Classroom02
 --- !u!1 &1267910850
 GameObject:
   m_ObjectHideFlags: 0
