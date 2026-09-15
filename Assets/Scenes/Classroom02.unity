@@ -277,7 +277,8 @@ GameObject:
   - component: {fileID: 15095873}
   - component: {fileID: 15095872}
   - component: {fileID: 15095874}
-  m_Layer: 0
+  - component: {fileID: 15095875}
+  m_Layer: 3
   m_Name: class 2 side wall1_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,6 +405,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.1925163, y: 21.5}
   m_EdgeRadius: 0
+--- !u!114 &15095875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15095871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uCC3D\uBB38 \uBC16\uC740 \uC5B4\uB461\uB2E4.\n\uC544\uBB34\uAC83\uB3C4
+    \uBCF4\uC774\uC9C0 \uC54A\uB294\uB2E4."
+  useHorrorText: 1
 --- !u!1 &56920121
 GameObject:
   m_ObjectHideFlags: 0
@@ -4030,7 +4046,8 @@ GameObject:
   - component: {fileID: 371284471}
   - component: {fileID: 371284470}
   - component: {fileID: 371284472}
-  m_Layer: 0
+  - component: {fileID: 371284473}
+  m_Layer: 3
   m_Name: class2 student desk2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4157,6 +4174,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.4273065, y: 0.5257726}
   m_EdgeRadius: 0
+--- !u!114 &371284473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371284469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC624\uB798\uB41C \uD559\uC0DD\uC6A9 \uCC45\uC0C1\uC774\uB2E4. \n\uD45C\uBA74\uC5D0
+    \uB354\uB7EC\uC6B4 \uC5BC\uB8E9\uC774 \uC788\uB2E4."
+  useHorrorText: 0
 --- !u!1 &375559140
 GameObject:
   m_ObjectHideFlags: 0
@@ -4258,8 +4290,10 @@ GameObject:
   m_Component:
   - component: {fileID: 379623084}
   - component: {fileID: 379623083}
-  m_Layer: 0
-  m_Name: class2 switch
+  - component: {fileID: 379623085}
+  - component: {fileID: 379623086}
+  m_Layer: 3
+  m_Name: secretswitch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4333,12 +4367,79 @@ Transform:
   m_GameObject: {fileID: 379623082}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.9434, y: 3.2206502, z: 0}
+  m_LocalPosition: {x: 0.03, y: 3.2206502, z: 0}
   m_LocalScale: {x: 1.0707, y: 1.0707, z: 1.0707}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1317650113}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &379623085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379623082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f87bcbd63f6eaf646825e5ae14c0a739, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Classroom02SecretSwitch
+  playerController: {fileID: 165662840}
+  globalLight: {fileID: 847246723}
+  secretEntranceLight: {fileID: 1132351864}
+  secretRoomEntrance: {fileID: 734784797}
+  audioSource: {fileID: 0}
+  switchSound: {fileID: 0}
+  darkIntensity: 0.05
+  entranceLightIntensity: 1.5
+  fadeDuration: 0.3
+--- !u!61 &379623086
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379623082}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.13129795}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5, y: 0.66}
+    newSize: {x: 0.5, y: 0.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.5, y: 0.92259586}
+  m_EdgeRadius: 0
 --- !u!1 &385620399
 GameObject:
   m_ObjectHideFlags: 0
@@ -4441,7 +4542,8 @@ GameObject:
   - component: {fileID: 400243547}
   - component: {fileID: 400243546}
   - component: {fileID: 400243548}
-  m_Layer: 0
+  - component: {fileID: 400243549}
+  m_Layer: 3
   m_Name: class2 object_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4568,6 +4670,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.2367082, y: 0.54284286}
   m_EdgeRadius: 0
+--- !u!114 &400243549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400243545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uCC45\uC0C1\uC774 \uC090\uB6A4\uC5B4\uC838 \uC788\uB2E4."
+  useHorrorText: 0
 --- !u!1 &447227752
 GameObject:
   m_ObjectHideFlags: 0
@@ -5165,7 +5281,9 @@ GameObject:
   m_Component:
   - component: {fileID: 605462072}
   - component: {fileID: 605462071}
-  m_Layer: 0
+  - component: {fileID: 605462074}
+  - component: {fileID: 605462073}
+  m_Layer: 3
   m_Name: class2 notice board_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5246,6 +5364,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1317650113}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &605462073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605462070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uB0A1\uC740 \uC2DC\uAC04\uD45C\uB2E4.\n\uAE00\uC528\uAC00 \uBC14\uB798\uC11C
+    \uC81C\uB300\uB85C \uC77D\uC744 \uC218 \uC5C6\uB2E4."
+  useHorrorText: 0
+--- !u!61 &605462074
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605462070}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.33, y: 7.56}
+    newSize: {x: 8.33, y: 7.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 8.33, y: 7.56}
+  m_EdgeRadius: 0
 --- !u!1 &605939744
 GameObject:
   m_ObjectHideFlags: 0
@@ -5257,7 +5436,8 @@ GameObject:
   - component: {fileID: 605939746}
   - component: {fileID: 605939745}
   - component: {fileID: 605939747}
-  m_Layer: 0
+  - component: {fileID: 605939748}
+  m_Layer: 3
   m_Name: class2 object_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5384,6 +5564,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.1788073, y: 0.44531178}
   m_EdgeRadius: 0
+--- !u!114 &605939748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605939744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uCC45\uC0C1\uC774 \uC090\uB6A4\uC5B4\uC838 \uC788\uB2E4."
+  useHorrorText: 0
 --- !u!1 &632789360
 GameObject:
   m_ObjectHideFlags: 0
@@ -5748,6 +5942,99 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &734784796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 734784799}
+  - component: {fileID: 734784798}
+  - component: {fileID: 734784797}
+  m_Layer: 3
+  m_Name: SecretRoomEntranceTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &734784797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734784796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51296cb5ed7a68d47afbcfe095c7c98c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Classroom02SecretRoomEntrance
+  dialogueManager: {fileID: 1867325514}
+  playerController: {fileID: 165662840}
+--- !u!61 &734784798
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734784796}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.043295622, y: 0.20060372}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.0865912, y: 0.7777524}
+  m_EdgeRadius: 0
+--- !u!4 &734784799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734784796}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.02, y: -4.54, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &739835540
 GameObject:
   m_ObjectHideFlags: 0
@@ -5790,7 +6077,9 @@ GameObject:
   m_Component:
   - component: {fileID: 747224226}
   - component: {fileID: 747224227}
-  m_Layer: 0
+  - component: {fileID: 747224229}
+  - component: {fileID: 747224228}
+  m_Layer: 3
   m_Name: class2 object_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5871,6 +6160,69 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &747224228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747224225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uAD50\uD0C1 \uC704\uC5D0 \uC624\uB798\uB41C \uCD9C\uC11D\uBD80\uC640
+    \uCC45\uB4E4\uC774 \uB193\uC5EC \uC788\uB2E4.\n\uBA3C\uC9C0\uAC00 \uC313\uC778
+    \uAC78 \uBCF4\uB2C8 \uAF64 \uC624\uB7AB\uB3D9\uC548 \uC544\uBB34\uB3C4 \uC190\uB300\uC9C0
+    \uC54A\uC740 \uAC83 \uAC19\uB2E4."
+  useHorrorText: 0
+--- !u!61 &747224229
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747224225}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 0.86}
+    newSize: {x: 2.56, y: 0.86}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.56, y: 0.86}
+  m_EdgeRadius: 0
 --- !u!1 &756171572
 GameObject:
   m_ObjectHideFlags: 0
@@ -5881,7 +6233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 756171573}
   - component: {fileID: 756171574}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: class2 object_36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6063,7 +6415,9 @@ GameObject:
   m_Component:
   - component: {fileID: 768311773}
   - component: {fileID: 768311772}
-  m_Layer: 0
+  - component: {fileID: 768311775}
+  - component: {fileID: 768311774}
+  m_Layer: 3
   m_Name: class2  broomstick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6144,6 +6498,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1317650113}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &768311774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768311771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC624\uB798\uB41C \uCCAD\uC18C\uB3C4\uAD6C\uAC00 \uC138\uC6CC\uC838
+    \uC788\uB2E4."
+  useHorrorText: 0
+--- !u!61 &768311775
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768311771}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.0113687515, y: -0.01136905}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.33, y: 2.55}
+    newSize: {x: 1.33, y: 2.55}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.8525028, y: 1.9360753}
+  m_EdgeRadius: 0
 --- !u!1 &817449135
 GameObject:
   m_ObjectHideFlags: 0
@@ -6246,7 +6661,8 @@ GameObject:
   - component: {fileID: 821798454}
   - component: {fileID: 821798453}
   - component: {fileID: 821798455}
-  m_Layer: 0
+  - component: {fileID: 821798456}
+  m_Layer: 3
   m_Name: class2 student desk (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6373,6 +6789,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3948283, y: 0.45983696}
   m_EdgeRadius: 0
+--- !u!114 &821798456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821798452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC624\uB798\uB41C \uD559\uC0DD\uC6A9 \uCC45\uC0C1\uC774\uB2E4."
+  useHorrorText: 0
 --- !u!1 &847246722
 GameObject:
   m_ObjectHideFlags: 0
@@ -6559,7 +6989,8 @@ GameObject:
   - component: {fileID: 867616085}
   - component: {fileID: 867616084}
   - component: {fileID: 867616086}
-  m_Layer: 0
+  - component: {fileID: 867616087}
+  m_Layer: 3
   m_Name: class2 student desk2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6686,6 +7117,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.430078, y: 0.49345338}
   m_EdgeRadius: 0
+--- !u!114 &867616087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867616083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC624\uB798\uB41C \uD559\uC0DD\uC6A9 \uCC45\uC0C1\uC774\uB2E4. \n\uD45C\uBA74\uC5D0
+    \uB354\uB7EC\uC6B4 \uC5BC\uB8E9\uC774 \uC788\uB2E4."
+  useHorrorText: 0
 --- !u!1 &882625821
 GameObject:
   m_ObjectHideFlags: 0
@@ -6773,7 +7219,8 @@ GameObject:
   - component: {fileID: 921602810}
   - component: {fileID: 921602809}
   - component: {fileID: 921602811}
-  m_Layer: 0
+  - component: {fileID: 921602812}
+  m_Layer: 3
   m_Name: class2 student desk2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6900,6 +7347,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3663365, y: 0.4555428}
   m_EdgeRadius: 0
+--- !u!114 &921602812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921602808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC624\uB798\uB41C \uD559\uC0DD\uC6A9 \uCC45\uC0C1\uC774\uB2E4. \n\uD45C\uBA74\uC5D0
+    \uB354\uB7EC\uC6B4 \uC5BC\uB8E9\uC774 \uC788\uB2E4."
+  useHorrorText: 0
 --- !u!1 &1022946965
 GameObject:
   m_ObjectHideFlags: 0
@@ -7369,7 +7831,8 @@ GameObject:
   - component: {fileID: 1070270679}
   - component: {fileID: 1070270678}
   - component: {fileID: 1070270680}
-  m_Layer: 0
+  - component: {fileID: 1070270681}
+  m_Layer: 3
   m_Name: class2 student desk3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7496,6 +7959,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3869829, y: 0.5740504}
   m_EdgeRadius: 0
+--- !u!114 &1070270681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070270677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 400e1ed4a522d404297f9336481d50e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Classroom02BookEvent
+  dialogueManager: {fileID: 1867325514}
 --- !u!1 &1108891726
 GameObject:
   m_ObjectHideFlags: 0
@@ -7507,7 +7983,8 @@ GameObject:
   - component: {fileID: 1108891728}
   - component: {fileID: 1108891727}
   - component: {fileID: 1108891729}
-  m_Layer: 0
+  - component: {fileID: 1108891730}
+  m_Layer: 3
   m_Name: class2 student desk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7634,6 +8111,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3958316, y: 0.5040227}
   m_EdgeRadius: 0
+--- !u!114 &1108891730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108891726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC624\uB798\uB41C \uD559\uC0DD\uC6A9 \uCC45\uC0C1\uC774\uB2E4."
+  useHorrorText: 0
 --- !u!1 &1126764964
 GameObject:
   m_ObjectHideFlags: 0
@@ -7725,6 +8216,90 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1132351863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1132351865}
+  - component: {fileID: 1132351864}
+  m_Layer: 0
+  m_Name: SecretEntranceLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1132351864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132351863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.Light2D
+  m_ComponentVersion: 3
+  m_LightType: 1
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0
+  m_LightVolumeIntensity: 1
+  m_LightVolumeEnabled: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowsEnabled: 1
+  m_ShadowIntensity: 0.75
+  m_ShadowSoftness: 0.3
+  m_ShadowSoftnessFalloffIntensity: 0.5
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: -0.00024998188, y: -0.000100016594, z: 0}
+    m_Extent: {x: 1.00045, y: 1.0009, z: 0}
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
+--- !u!4 &1132351865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132351863}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.11, y: -4.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1185826633
 GameObject:
   m_ObjectHideFlags: 0
@@ -8005,7 +8580,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1239049033}
   - component: {fileID: 1239049032}
-  m_Layer: 0
+  - component: {fileID: 1239049035}
+  - component: {fileID: 1239049034}
+  m_Layer: 3
   m_Name: class2  Class Motto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8086,6 +8663,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1317650113}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1239049034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239049031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32aae888ed03d7a41b2219ddaffcce2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Classroom02MottoEvent
+  dialogueManager: {fileID: 1867325514}
+  bookEvent: {fileID: 1070270681}
+--- !u!61 &1239049035
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239049031}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.46408474}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.67}
+    newSize: {x: 1.62, y: 1.67}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.62, y: 2.5981696}
+  m_EdgeRadius: 0
 --- !u!1 &1252096447
 GameObject:
   m_ObjectHideFlags: 0
@@ -8579,7 +9216,8 @@ GameObject:
   - component: {fileID: 1359262034}
   - component: {fileID: 1359262033}
   - component: {fileID: 1359262035}
-  m_Layer: 0
+  - component: {fileID: 1359262036}
+  m_Layer: 3
   m_Name: class2 student desk (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8706,6 +9344,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.4142861, y: 0.50983024}
   m_EdgeRadius: 0
+--- !u!114 &1359262036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359262032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC624\uB798\uB41C \uD559\uC0DD\uC6A9 \uCC45\uC0C1\uC774\uB2E4."
+  useHorrorText: 0
 --- !u!1 &1403426945
 GameObject:
   m_ObjectHideFlags: 0
@@ -8990,7 +9642,8 @@ GameObject:
   - component: {fileID: 1412111174}
   - component: {fileID: 1412111173}
   - component: {fileID: 1412111175}
-  m_Layer: 0
+  - component: {fileID: 1412111176}
+  m_Layer: 3
   m_Name: class2 object_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9117,6 +9770,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.7015948, y: 0.917012}
   m_EdgeRadius: 0
+--- !u!114 &1412111176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412111172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC758\uC790\uAC00 \uC5B4\uC9C0\uB7FD\uAC8C \uB118\uC5B4\uC838 \uC788\uB2E4.
+    \n\uB204\uAD70\uAC00 \uAE09\uD558\uAC8C \uC6C0\uC9C1\uC778 \uAC83\uCC98\uB7FC
+    \uBCF4\uC778\uB2E4."
+  useHorrorText: 0
 --- !u!1 &1414153150
 GameObject:
   m_ObjectHideFlags: 0
@@ -9218,7 +9887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1447202447}
   - component: {fileID: 1447202448}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: class2 reacher desk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9276,7 +9945,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.2107749, y: -0.1363838}
+  m_Offset: {x: 0.2107749, y: -0.18123087}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9286,7 +9955,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.2894464, y: 0.67763835}
+  m_Size: {x: 2.2894464, y: 0.5879442}
   m_EdgeRadius: 0
 --- !u!1 &1506541283
 GameObject:
@@ -9601,7 +10270,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1532868882}
   - component: {fileID: 1532868881}
-  m_Layer: 0
+  - component: {fileID: 1532868884}
+  - component: {fileID: 1532868883}
+  - component: {fileID: 1532868885}
+  m_Layer: 3
   m_Name: class 2 blackboard_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9655,7 +10327,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_MaskInteraction: 0
   m_Sprite: {fileID: -6604056715860899996, guid: bd4132a7aac8f0341b3fb31969978123, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9682,6 +10354,87 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1317650113}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1532868883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532868880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC624\uB798\uB41C \uCE60\uD310\uC774\uB2E4. \n\uC9C0\uC6B4 \uC790\uAD6D
+    \uC0AC\uC774\uB85C \uD76C\uBBF8\uD558\uAC8C \uAE00\uC528\uAC00 \uB0A8\uC544 \uC788\uB2E4."
+  useHorrorText: 0
+--- !u!61 &1532868884
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532868880}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 21.56, y: 6.2430468}
+    newSize: {x: 21.56, y: 6.2430468}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 21.56, y: 6.2430468}
+  m_EdgeRadius: 0
+--- !u!114 &1532868885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532868880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ed39f6cef2dfaa47a03cad15eedc4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Classroom02BlackboardEvent
+  dialogueManager: {fileID: 1867325514}
+  inspectableObject: {fileID: 1532868883}
+  mottoEvent: {fileID: 1239049034}
+  playerController: {fileID: 165662840}
+  secretSwitchCollider: {fileID: 0}
+  blackboardToMove: {fileID: 1532868882}
+  moveDistanceX: -0.8
+  moveDuration: 1.2
 --- !u!1 &1533762487
 GameObject:
   m_ObjectHideFlags: 0
@@ -10259,7 +11012,8 @@ GameObject:
   - component: {fileID: 1704571621}
   - component: {fileID: 1704571620}
   - component: {fileID: 1704571622}
-  m_Layer: 0
+  - component: {fileID: 1704571623}
+  m_Layer: 3
   m_Name: class2 student desk (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10386,6 +11140,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.4191353, y: 0.52645403}
   m_EdgeRadius: 0
+--- !u!114 &1704571623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704571619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC624\uB798\uB41C \uD559\uC0DD\uC6A9 \uCC45\uC0C1\uC774\uB2E4."
+  useHorrorText: 0
 --- !u!1 &1706780554
 GameObject:
   m_ObjectHideFlags: 0
@@ -10396,7 +11164,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1706780556}
   - component: {fileID: 1706780555}
-  m_Layer: 0
+  - component: {fileID: 1706780558}
+  - component: {fileID: 1706780557}
+  m_Layer: 3
   m_Name: class2 trash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10471,12 +11241,73 @@ Transform:
   m_GameObject: {fileID: 1706780554}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.7466, y: 1.7856499, z: 0}
+  m_LocalPosition: {x: 4.87, y: 1.7856499, z: 0}
   m_LocalScale: {x: 0.87626, y: 0.87626, z: 0.87626}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1317650113}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1706780557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706780554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC4F0\uB808\uAE30\uD1B5 \uC548\uC5D0\uB294 \uB0A1\uC740 \uC885\uC774
+    \uBA87 \uC7A5\uBFD0\uC774\uB2E4."
+  useHorrorText: 0
+--- !u!61 &1706780558
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706780554}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 1.27}
+    newSize: {x: 0.84, y: 1.27}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.84, y: 1.27}
+  m_EdgeRadius: 0
 --- !u!1 &1716977762
 GameObject:
   m_ObjectHideFlags: 0
@@ -10578,7 +11409,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1729370366}
   - component: {fileID: 1729370365}
-  m_Layer: 0
+  - component: {fileID: 1729370368}
+  - component: {fileID: 1729370367}
+  m_Layer: 3
   m_Name: class 2 clock_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10659,6 +11492,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1317650113}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1729370367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729370364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC2DC\uACC4\uB294 \uBA48\uCDB0 \uC788\uB2E4. \n\u2026\uC774 \uD559\uAD50\uC758
+    \uBAA8\uB4E0 \uC2DC\uACC4\uAC00 \uAC19\uC740 \uC2DC\uAC04\uC5D0 \uBA48\uCD98
+    \uAC78\uAE4C?"
+  useHorrorText: 0
+--- !u!61 &1729370368
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729370364}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -5.2454963}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11.39, y: 10.69}
+    newSize: {x: 11.39, y: 10.69}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 11.39, y: 21.180988}
+  m_EdgeRadius: 0
 --- !u!1 &1730313837
 GameObject:
   m_ObjectHideFlags: 0
@@ -10990,7 +11885,8 @@ GameObject:
   - component: {fileID: 1821281754}
   - component: {fileID: 1821281753}
   - component: {fileID: 1821281755}
-  m_Layer: 0
+  - component: {fileID: 1821281756}
+  m_Layer: 3
   m_Name: class 2 side wall2_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11117,6 +12013,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.6075802, y: 7.5046473}
   m_EdgeRadius: 0
+--- !u!114 &1821281756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821281752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uD2B9\uBCC4\uD55C \uAC83\uC740 \uC5C6\uC5B4 \uBCF4\uC778\uB2E4."
+  useHorrorText: 0
 --- !u!1 &1853700914
 GameObject:
   m_ObjectHideFlags: 0
@@ -12113,7 +13023,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1986827466}
   - component: {fileID: 1986827467}
-  m_Layer: 0
+  - component: {fileID: 1986827469}
+  - component: {fileID: 1986827468}
+  m_Layer: 3
   m_Name: class2 trash (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12194,6 +13106,67 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1986827468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986827465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC4F0\uB808\uAE30\uD1B5 \uC548\uC5D0\uB294 \uB0A1\uC740 \uC885\uC774
+    \uBA87 \uC7A5\uBFD0\uC774\uB2E4."
+  useHorrorText: 0
+--- !u!61 &1986827469
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986827465}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 1.27}
+    newSize: {x: 0.84, y: 1.27}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.84, y: 1.27}
+  m_EdgeRadius: 0
 --- !u!1 &2011417862
 GameObject:
   m_ObjectHideFlags: 0
@@ -12204,7 +13177,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2011417864}
   - component: {fileID: 2011417863}
-  m_Layer: 0
+  - component: {fileID: 2011417866}
+  - component: {fileID: 2011417865}
+  m_Layer: 3
   m_Name: class2 Flowerpots and Shelves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12285,6 +13260,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1317650113}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2011417865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011417862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uB0A1\uC740 \uCC45\uB4E4\uC774 \uBE7C\uACE1\uD558\uAC8C \uAF42\uD600
+    \uC788\uB2E4.  \n\uB300\uBD80\uBD84 \uC624\uB798\uB41C \uAD50\uACFC\uC11C\uB2E4."
+  useHorrorText: 0
+--- !u!61 &2011417866
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011417862}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.029463172, y: 0.056224495}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.58, y: 2.45}
+    newSize: {x: 1.58, y: 2.45}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.2702084, y: 0.88668114}
+  m_EdgeRadius: 0
 --- !u!1 &2054718803
 GameObject:
   m_ObjectHideFlags: 0
@@ -12478,7 +13514,8 @@ GameObject:
   - component: {fileID: 2113479057}
   - component: {fileID: 2113479056}
   - component: {fileID: 2113479058}
-  m_Layer: 0
+  - component: {fileID: 2113479059}
+  m_Layer: 3
   m_Name: class2 student desk2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12605,6 +13642,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.4217734, y: 0.5199481}
   m_EdgeRadius: 0
+--- !u!114 &2113479059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113479055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC624\uB798\uB41C \uD559\uC0DD\uC6A9 \uCC45\uC0C1\uC774\uB2E4. \n\uD45C\uBA74\uC5D0
+    \uB354\uB7EC\uC6B4 \uC5BC\uB8E9\uC774 \uC788\uB2E4."
+  useHorrorText: 0
 --- !u!1 &2146299486
 GameObject:
   m_ObjectHideFlags: 0
@@ -12764,6 +13816,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9045226329509430308, guid: 566752f9e8e11934f838d1b95063583f, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12787,3 +13843,5 @@ SceneRoots:
   - {fileID: 1748465976}
   - {fileID: 323689659}
   - {fileID: 276893339}
+  - {fileID: 1132351865}
+  - {fileID: 734784799}

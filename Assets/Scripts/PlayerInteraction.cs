@@ -152,6 +152,47 @@ public class PlayerInteraction : MonoBehaviour
             fireExtinguisher.Interact();
             return;
         }
+        // =========================
+        // 1-3반 책 이벤트
+        // =========================
+        Classroom02BookEvent classroom02Book = hit.collider.GetComponentInParent<Classroom02BookEvent>();
+
+        if (classroom02Book != null)
+        {
+            classroom02Book.Interact();
+            return;
+        }
+        // =========================
+        // 1-3반 급훈 이벤트
+        // =========================
+        Classroom02MottoEvent classroom02Motto =
+            hit.collider.GetComponentInParent<Classroom02MottoEvent>();
+
+        if (classroom02Motto != null)
+        {
+            classroom02Motto.Interact();
+            return;
+        }
+        // =========================
+        // 1-3반 칠판 이벤트
+        // =========================
+        Classroom02BlackboardEvent classroom02Blackboard = hit.collider.GetComponentInParent<Classroom02BlackboardEvent>();
+
+        if (classroom02Blackboard != null)
+        {
+            classroom02Blackboard.Interact();
+            return;
+        }
+        // =========================
+        // 1-3반 비밀 스위치
+        // =========================
+        Classroom02SecretSwitch secretSwitch = hit.collider.GetComponentInParent<Classroom02SecretSwitch>();
+
+        if (secretSwitch != null)
+        {
+            secretSwitch.Interact();
+            return;
+        }
 
         // =========================
         // 조사 오브젝트
