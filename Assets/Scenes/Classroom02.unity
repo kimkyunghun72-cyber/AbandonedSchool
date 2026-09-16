@@ -540,7 +540,8 @@ GameObject:
   - component: {fileID: 89871130}
   - component: {fileID: 89871131}
   - component: {fileID: 89871132}
-  m_Layer: 0
+  - component: {fileID: 89871133}
+  m_Layer: 3
   m_Name: hidden room object_24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -556,7 +557,7 @@ Transform:
   m_GameObject: {fileID: 89871129}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.93798006, y: 0.13, z: 0}
+  m_LocalPosition: {x: 0.15, y: 0.13, z: 0}
   m_LocalScale: {x: 0.54641974, y: 0.54641974, z: 0.54641974}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -667,6 +668,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.865847, y: 0.92064893}
   m_EdgeRadius: 0
+--- !u!114 &89871133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89871129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uB0A1\uC740 \uCC45\uACFC \uC11C\uB958\uB4E4\uC774 \uBE7C\uACE1\uD558\uAC8C
+    \uAF42\uD600 \uC788\uB2E4.\n\uB300\uBD80\uBD84 \uD559\uAD50\uC5D0\uC11C \uC4F0\uB358
+    \uAE30\uB85D\uBB3C\uC778 \uAC83 \uAC19\uB2E4."
+  useHorrorText: 0
 --- !u!1 &124217025
 GameObject:
   m_ObjectHideFlags: 0
@@ -1130,7 +1147,9 @@ GameObject:
   m_Component:
   - component: {fileID: 203488912}
   - component: {fileID: 203488913}
-  m_Layer: 0
+  - component: {fileID: 203488914}
+  - component: {fileID: 203488915}
+  m_Layer: 3
   m_Name: hidden room object_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1211,6 +1230,68 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!61 &203488914
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203488911}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.12442434, y: 0.20962435}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.06, y: 1.82}
+    newSize: {x: 2.06, y: 1.82}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.3206265, y: 1.4007512}
+  m_EdgeRadius: 0
+--- !u!114 &203488915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203488911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC624\uB798\uB41C \uBB3C\uAC74\uB4E4\uC774 \uC544\uBB34\uB807\uAC8C\uB098
+    \uC313\uC5EC \uC788\uB2E4.\n\uC624\uB7AB\uB3D9\uC548 \uC544\uBB34\uB3C4 \uB4E4\uC5B4\uC624\uC9C0
+    \uC54A\uC740 \uAC83 \uAC19\uB2E4."
+  useHorrorText: 0
 --- !u!1 &245201991
 GameObject:
   m_ObjectHideFlags: 0
@@ -1520,6 +1601,7 @@ Transform:
   - {fileID: 1234292766}
   - {fileID: 2068240501}
   - {fileID: 195279402}
+  - {fileID: 1333113108}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &327776111
@@ -4911,7 +4993,9 @@ GameObject:
   m_Component:
   - component: {fileID: 477945729}
   - component: {fileID: 477945730}
-  m_Layer: 0
+  - component: {fileID: 477945732}
+  - component: {fileID: 477945731}
+  m_Layer: 3
   m_Name: hidden room object_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4992,6 +5076,67 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!61 &477945731
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477945728}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.10720351, y: -0.20368642}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.97, y: 2.49}
+    newSize: {x: 1.97, y: 2.49}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.2838981, y: 0.7533053}
+  m_EdgeRadius: 0
+--- !u!114 &477945732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477945728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC624\uB798\uB41C \uBB3C\uAC74\uB4E4\uC774 \uC544\uBB34\uB807\uAC8C\uB098
+    \uC313\uC5EC \uC788\uB2E4."
+  useHorrorText: 0
 --- !u!1 &481194647
 GameObject:
   m_ObjectHideFlags: 0
@@ -5316,7 +5461,9 @@ GameObject:
   m_Component:
   - component: {fileID: 532761915}
   - component: {fileID: 532761916}
-  m_Layer: 0
+  - component: {fileID: 532761918}
+  - component: {fileID: 532761917}
+  m_Layer: 3
   m_Name: hidden room object_27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5397,6 +5544,68 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!61 &532761917
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532761914}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.2385416, y: 0.23685408}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.93, y: 1.95}
+    newSize: {x: 0.93, y: 1.95}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.407083, y: 1.4762919}
+  m_EdgeRadius: 0
+--- !u!114 &532761918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532761914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30390f7d1302fe41a656cadb514fd99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectableObject
+  message: "\uC624\uB798\uB41C \uACF5\uC9C0\uC640 \uD559\uC0DD \uAE30\uB85D\uB4E4\uC774
+    \uBD99\uC5B4 \uC788\uB2E4.\n\uBA87\uBA87 \uBD80\uBD84\uC740 \uC77C\uBD80\uB7EC
+    \uB72F\uC5B4\uB0B8 \uAC83\uCC98\uB7FC \uBCF4\uC778\uB2E4."
+  useHorrorText: 0
 --- !u!1 &605462070
 GameObject:
   m_ObjectHideFlags: 0
@@ -5897,7 +6106,8 @@ GameObject:
   - component: {fileID: 660316397}
   - component: {fileID: 660316398}
   - component: {fileID: 660316399}
-  m_Layer: 0
+  - component: {fileID: 660316400}
+  m_Layer: 3
   m_Name: hidden room object_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6024,6 +6234,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.7173653, y: 1.0191016}
   m_EdgeRadius: 0
+--- !u!114 &660316400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660316396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ec8e2330e2080e41a39ff6ca125e03f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Classroom02TeacherRecordEvent
+  dialogueManager: {fileID: 1867325514}
 --- !u!1 &729811474
 GameObject:
   m_ObjectHideFlags: 0
@@ -9479,6 +9702,84 @@ Transform:
   - {fileID: 276893339}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1333113106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1333113108}
+  - component: {fileID: 1333113107}
+  m_Layer: 0
+  m_Name: hidden block1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1333113107
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333113106}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.07491565, y: 0.44726992}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.9489341, y: 0.8845854}
+  m_EdgeRadius: 0
+--- !u!4 &1333113108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333113106}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.10798, y: 0.7297301, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 323689659}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1359262032
 GameObject:
   m_ObjectHideFlags: 0
@@ -10288,7 +10589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1589365788000494984, guid: 2ba020fd8119e77449e98ae9cac5fd17, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -11639,7 +11940,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1716977763}
   - component: {fileID: 1716977764}
-  m_Layer: 0
+  - component: {fileID: 1716977766}
+  - component: {fileID: 1716977765}
+  m_Layer: 3
   m_Name: hidden room object_25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11720,6 +12023,68 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1716977765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716977762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cdd55f9792c1e04d9352f898908dc02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Classroom02OtherGirlsPhotoEvent
+  dialogueManager: {fileID: 1867325514}
+  photoPanel: {fileID: 882625821}
+  photoImage: {fileID: 1506541285}
+  girlsPhoto: {fileID: -3051275977071067924, guid: f10e1c0f72261424d927ff9b6c4dc41a, type: 3}
+--- !u!61 &1716977766
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716977762}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.14379412}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.05, y: 2.21}
+    newSize: {x: 2.05, y: 2.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.05, y: 2.4975882}
+  m_EdgeRadius: 0
 --- !u!1 &1729370364
 GameObject:
   m_ObjectHideFlags: 0
@@ -11977,7 +12342,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1769155138}
   - component: {fileID: 1769155139}
-  m_Layer: 0
+  - component: {fileID: 1769155141}
+  - component: {fileID: 1769155140}
+  m_Layer: 3
   m_Name: hidden room object 2_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12058,6 +12425,68 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1769155140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769155137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead28730e42978a4898e11d9eaafd1f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Classroom02PlayerPhotoEvent
+  dialogueManager: {fileID: 1867325514}
+  photoPanel: {fileID: 882625821}
+  photoImage: {fileID: 1506541285}
+  playerPhoto: {fileID: 603471156343574412, guid: d7ce068815f384f459ff96909336ec47, type: 3}
+--- !u!61 &1769155141
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769155137}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.7824254, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.17, y: 1.73}
+    newSize: {x: 2.17, y: 1.73}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.734851, y: 1.73}
+  m_EdgeRadius: 0
 --- !u!1 &1790550949
 GameObject:
   m_ObjectHideFlags: 0
@@ -12642,7 +13071,7 @@ MonoBehaviour:
   horrorText: {fileID: 1943829935}
   horrorSpeakerNameText: {fileID: 1790550950}
   photoPanel: {fileID: 882625821}
-  photoImage: {fileID: 1202738845}
+  photoImage: {fileID: 1506541285}
   rosterPanel: {fileID: 0}
   rosterImage: {fileID: 0}
   playerController: {fileID: 165662840}
@@ -12905,13 +13334,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1938785409}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0.0049795187, z: -0, w: 0.9999876}
   m_LocalPosition: {x: 4.76098, y: 0.9707303, z: 0}
   m_LocalScale: {x: 0.4432923, y: 0.4432923, z: 0.4432923}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 323689659}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0.571, z: 0}
 --- !u!212 &1938785411
 SpriteRenderer:
   serializedVersion: 2
@@ -13118,6 +13547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1944725776}
   - component: {fileID: 1944725777}
+  - component: {fileID: 1944725778}
   m_Layer: 0
   m_Name: hidden room object_23
   m_TagString: Untagged
@@ -13199,6 +13629,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!61 &1944725778
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944725775}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.029576212, y: 0.06654805}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6, y: 1.86}
+    newSize: {x: 1.6, y: 1.86}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.9493131, y: 0.75087345}
+  m_EdgeRadius: 0
 --- !u!1 &1948600293
 GameObject:
   m_ObjectHideFlags: 0

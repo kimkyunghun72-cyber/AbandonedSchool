@@ -57,6 +57,7 @@ public class DialogueManager : MonoBehaviour
 
 
     private bool showPhotoAcquiredNext = false;
+    private bool currentPhotoIsAcquired = true;
 
 
     // =========================
@@ -292,7 +293,8 @@ public class DialogueManager : MonoBehaviour
             photoFollowUpSpeaker = null;
             photoFollowUpMessage = null;
 
-            showPhotoAcquiredNext = true;
+            showPhotoAcquiredNext = currentPhotoIsAcquired;
+            currentPhotoIsAcquired = true;
             ShowDialogueSequence( speaker, message );
 
             return;
@@ -423,12 +425,14 @@ public class DialogueManager : MonoBehaviour
     // =========================
     // 다음에 사진 보여주기 예약
     // =========================
-    public void SetNextPhoto( Sprite photo, string followUpSpeaker, string followUpMessage)
+    public void SetNextPhoto( Sprite photo, string followUpSpeaker, string followUpMessage, bool showAcquiredMessage = true)
     {
         pendingPhoto = photo;
 
         photoFollowUpSpeaker = followUpSpeaker;
         photoFollowUpMessage = followUpMessage;
+
+        currentPhotoIsAcquired = showAcquiredMessage;
     }
 
 

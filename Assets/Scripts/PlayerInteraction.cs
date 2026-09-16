@@ -193,7 +193,36 @@ public class PlayerInteraction : MonoBehaviour
             secretSwitch.Interact();
             return;
         }
+        // =========================
+        // 비밀방 주인공 사진
+        // =========================
+        Classroom02PlayerPhotoEvent playerPhotoEvent = hit.collider.GetComponentInParent<Classroom02PlayerPhotoEvent>();
 
+        if (playerPhotoEvent != null)
+        {
+            playerPhotoEvent.Interact();
+            return;
+        }
+        // =========================
+        // 비밀방 다른 여학생 사진
+        // =========================
+        Classroom02OtherGirlsPhotoEvent otherGirlsPhoto = hit.collider.GetComponentInParent<Classroom02OtherGirlsPhotoEvent>();
+
+        if (otherGirlsPhoto != null)
+        {
+            otherGirlsPhoto.Interact();
+            return;
+        }
+        // =========================
+        // 비밀방 선생님 생활지도 기록
+        // =========================
+        Classroom02TeacherRecordEvent teacherRecord = hit.collider.GetComponentInParent<Classroom02TeacherRecordEvent>();
+
+        if (teacherRecord != null)
+        {
+            teacherRecord.Interact();
+            return;
+        }
         // =========================
         // 조사 오브젝트
         // =========================
