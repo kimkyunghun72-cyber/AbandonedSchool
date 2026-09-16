@@ -30,11 +30,20 @@ public class CameraFollow : MonoBehaviour
         }
 
         // 플레이어 X를 따라감
-        float followX = Mathf.Lerp( transform.position.x, target.position.x, smoothSpeed * Time.deltaTime );
+        float followX = Mathf.Lerp(
+            transform.position.x,
+            target.position.x,
+            smoothSpeed * Time.deltaTime
+        );
 
-        // 카메라 자체가 minX보다 왼쪽으로 못 가게 강제 제한
+        // 카메라 자체가 minX보다 왼쪽으로 못 가게 제한
         followX = Mathf.Max(followX, minX);
 
-        transform.position = new Vector3(followX, fixedY, fixedZ );
+        // Y / Z는 고정
+        transform.position = new Vector3(
+            followX,
+            fixedY,
+            fixedZ
+        );
     }
 }

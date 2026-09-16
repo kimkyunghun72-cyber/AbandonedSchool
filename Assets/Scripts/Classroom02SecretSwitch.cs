@@ -23,15 +23,21 @@ public class Classroom02SecretSwitch : MonoBehaviour
     [Header("조명 설정")]
     [SerializeField] private float darkIntensity = 0.05f;
     [SerializeField] private float entranceLightIntensity = 1.5f;
-    [SerializeField] private float fadeDuration = 0.3f;
 
     private bool hasPressed = false;
-    private bool isRunning = false;
+
+    private float originalLightIntensity;
 
 
     private void Start()
     {
-        // 처음에는 비밀방 입구 조명 OFF
+        // 처음 교실 밝기 저장
+        if (globalLight != null)
+        {
+            originalLightIntensity = globalLight.intensity;
+        }
+
+        // 비밀방 입구 조명은 처음엔 꺼둠
         if (secretEntranceLight != null)
         {
             secretEntranceLight.intensity = 0f;
@@ -41,10 +47,13 @@ public class Classroom02SecretSwitch : MonoBehaviour
 
     public void Interact()
     {
-        if (hasPressed || isRunning)
+        // 한 번만 작동
+        if (hasPressed)
         {
             return;
         }
+
+        hasPressed = true;
 
         StartCoroutine(SwitchRoutine());
     }
@@ -52,10 +61,6 @@ public class Classroom02SecretSwitch : MonoBehaviour
 
     private IEnumerator SwitchRoutine()
     {
-        isRunning = true;
-        hasPressed = true;
-
-
         // =========================
         // 플레이어 이동 잠금
         // =========================
@@ -78,62 +83,26 @@ public class Classroom02SecretSwitch : MonoBehaviour
 
 
         // =========================
-        // 조명 전환
+        // 교실 전체 어둡게
         // =========================
-        float startGlobalIntensity =
-            globalLight != null ? globalLight.intensity : 0f;
-
-        float elapsedTime = 0f;
-
-        while (elapsedTime < fadeDuration)
-        {
-            elapsedTime += Time.deltaTime;
-
-            float t = elapsedTime / fadeDuration;
-
-
-            // 교실 전체 어둡게
-            if (globalLight != null)
-            {
-                globalLight.intensity =
-                    Mathf.Lerp(
-                        startGlobalIntensity,
-                        darkIntensity,
-                        t
-                    );
-            }
-
-
-            // 비밀방 입구만 밝게
-            if (secretEntranceLight != null)
-            {
-                secretEntranceLight.intensity =
-                    Mathf.Lerp(
-                        0f,
-                        entranceLightIntensity,
-                        t
-                    );
-            }
-
-
-            yield return null;
-        }
-
-
-        // 정확한 최종 값
         if (globalLight != null)
         {
             globalLight.intensity = darkIntensity;
         }
 
+
+        // =========================
+        // 비밀방 입구만 밝게
+        // =========================
         if (secretEntranceLight != null)
         {
-            secretEntranceLight.intensity = entranceLightIntensity;
+            secretEntranceLight.intensity =
+                entranceLightIntensity;
         }
 
 
         // =========================
-        // 비밀방 입구 활성화
+        // 비밀방 입구 사용 가능
         // =========================
         if (secretRoomEntrance != null)
         {
@@ -151,8 +120,22 @@ public class Classroom02SecretSwitch : MonoBehaviour
         {
             playerController.SetMovementLocked(false);
         }
+    }
 
 
-        isRunning = false;
+    // =========================
+    // 비밀방 진입 후 밝기 복구
+    // =========================
+    public void RestoreLight()
+    {
+        if (globalLight != null)
+        {
+            globalLight.intensity = originalLightIntensity;
+        }
+
+        if (secretEntranceLight != null)
+        {
+            secretEntranceLight.intensity = 0f;
+        }
     }
 }
