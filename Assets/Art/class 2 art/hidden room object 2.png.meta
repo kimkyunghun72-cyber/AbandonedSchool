@@ -471,6 +471,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: hidden room object 2_15
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 380
+        width: 118
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5ebab4d7e92464eade1b7037e8e5f8
+      internalID: -1360769849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -492,6 +514,7 @@ TextureImporter:
       hidden room object 2_12: -531584065815013717
       hidden room object 2_13: 2743977138199643384
       hidden room object 2_14: -92548874059655578
+      hidden room object 2_15: -1360769849
       hidden room object 2_2: 7330364606513893065
       hidden room object 2_3: 9221283160769573291
       hidden room object 2_4: 3321042758933412183

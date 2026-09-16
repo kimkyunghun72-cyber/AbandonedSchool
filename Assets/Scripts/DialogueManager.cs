@@ -300,7 +300,16 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        // 다음 문장이 있으면 다음 문장 출력
+        if (dialogueMessages != null &&
+            currentMessageIndex < dialogueMessages.Length - 1)
+        {
+            currentMessageIndex++;
 
+            StartDialogue(dialogueMessages[currentMessageIndex]);
+
+            return;
+        }
         // 예약된 다음 독백이 있으면 출력
         if (hasNextDialogue)
         {
@@ -317,17 +326,6 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-
-        // 다음 문장이 있으면 다음 문장 출력
-        if (dialogueMessages != null &&
-            currentMessageIndex < dialogueMessages.Length - 1)
-        {
-            currentMessageIndex++;
-
-            StartDialogue( dialogueMessages[currentMessageIndex] );
-
-            return;
-        }
         // =========================
         // 명단 공포 연출
         // =========================

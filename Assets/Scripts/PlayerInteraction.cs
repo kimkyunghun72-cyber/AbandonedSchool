@@ -224,6 +224,28 @@ public class PlayerInteraction : MonoBehaviour
             return;
         }
         // =========================
+        // 비밀방 단체사진
+        // =========================
+        Classroom02GroupPhotoEvent groupPhoto = hit.collider.GetComponentInParent<Classroom02GroupPhotoEvent>();
+
+        if (groupPhoto != null)
+        {
+            groupPhoto.Interact();
+            return;
+        }
+        // =========================
+        // 비밀방 마지막 메모
+        // =========================
+        Classroom02FinalMemoEvent finalMemo = hit.collider.GetComponentInParent<Classroom02FinalMemoEvent>();
+
+        if (finalMemo != null)
+        {
+            finalMemo.Interact();
+            return;
+        }
+
+
+        // =========================
         // 조사 오브젝트
         // =========================
         InspectableObject inspectable = hit.collider.GetComponentInParent<InspectableObject>();
