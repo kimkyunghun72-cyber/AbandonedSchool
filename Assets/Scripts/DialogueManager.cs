@@ -70,6 +70,8 @@ public class DialogueManager : MonoBehaviour
     private bool hasNextDialogue = false;
     private string nextSpeaker;
     private string nextMessage;
+    // 현재 대화가 완전히 끝났을 때 실행할 이벤트
+    private System.Action dialogueEndAction;
 
 
     void Start()
@@ -238,12 +240,15 @@ public class DialogueManager : MonoBehaviour
         nextSpeaker = speaker;
         nextMessage = message;
     }
-
+    public void SetDialogueEndAction(System.Action action)
+    {
+        dialogueEndAction = action;
+    }
 
     // =========================
     // E키
     // =========================
-   public void ContinueDialogue()
+    public void ContinueDialogue()
 {
     // =========================
     // 명단 공포 연출 중에는
@@ -415,9 +420,28 @@ public class DialogueManager : MonoBehaviour
         dialogueMessages = null;
         currentMessageIndex = 0;
 
-        if (playerController != null)
+        // =========================
+        // 예약된 종료 이벤트가 있는지 확인
+        // =========================
+        bool hasEndAction = dialogueEndAction != null;
+
+
+        // 엔딩 같은 후속 이벤트가 없을 때만 이동 잠금 해제
+        if (playerController != null && !hasEndAction)
         {
             playerController.SetMovementLocked(false);
+        }
+
+
+        // =========================
+        // 예약된 대화 종료 이벤트 실행
+        // =========================
+        if (dialogueEndAction != null)
+        {
+            System.Action action = dialogueEndAction;
+            dialogueEndAction = null;
+
+            action.Invoke();
         }
     }
     // =========================

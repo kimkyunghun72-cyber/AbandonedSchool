@@ -4,6 +4,12 @@ public class Classroom02FinalMemoEvent : MonoBehaviour
 {
     [Header("대화")]
     [SerializeField] private DialogueManager dialogueManager;
+    [Header("플레이어")]
+    [SerializeField] private PlayerController playerController;
+
+    [Header("데모 엔딩")]
+    [SerializeField] private DemoEnding demoEnding;
+
 
     private bool hasReadMemo = false;
 
@@ -24,14 +30,41 @@ public class Classroom02FinalMemoEvent : MonoBehaviour
 
 
         hasReadMemo = true;
+        // =========================
+        // 마지막 메모 이후 이동 완전 금지
+        // =========================
+        if (playerController != null)
+        {
+            playerController.SetMovementLocked(true);
+        }
 
 
+        // =========================
+        // 메모가 전부 끝난 뒤
+        // 렌의 마지막 독백 예약
+        // =========================
         dialogueManager.SetNextDialogue(
             "렌",
             "……\n내 이름…?"
         );
 
 
+        // =========================
+        // 모든 대화가 완전히 끝난 뒤
+        // 데모 엔딩 시작
+        // =========================
+        dialogueManager.SetDialogueEndAction(() =>
+        {
+            if (demoEnding != null)
+            {
+                demoEnding.StartDemoEnding();
+            }
+        });
+
+
+        // =========================
+        // 마지막 메모
+        // =========================
         dialogueManager.ShowNarrationSequence(
             "바닥에 낡은 종이 한 장이 떨어져 있다.",
             "삐뚤어진 글씨로 무언가 적혀 있다.",
